@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/sofa-framework/sofa",
+  "commit": "4d6c2b8e8cd976836c5e071e9db14f1963d84cc9",
+  "license": "LGPL-2.1-or-later; see accompanying upstream license and notice",
+  "assets": {
+    "mesh/head.obj": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/mesh/head.obj",
+      "sha256": "fbadaf9754730da8fd466ba5fe5b8d0a78401c70407c219128edce63a5582cbe"
+    },
+    "mesh/teeth.obj": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/mesh/teeth.obj",
+      "sha256": "d65b86af4f9b3260506a1b6777403cd39bd54dd90d2ef491448c66962d75114a"
+    },
+    "mesh/tongue.obj": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/mesh/tongue.obj",
+      "sha256": "afde885b7beac73aa94fc2156d847ab8000893c2d2014ef646bd63105fe8a3f9"
+    },
+    "textures/head_baseTexBaked.png": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/pics/head_baseTexBaked.png",
+      "sha256": "cfd7fc269bd18e0994da7757a903b05f633e57ee6a01323448455c4ab01c5ac6"
+    },
+    "textures/teeth_color.png": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/pics/teeth_color.png",
+      "sha256": "379e08d375c0b6ca9ef785e2800c0aa6aeb1ead16f4eb2b9aa4d52813fded8b7"
+    },
+    "textures/tongue_color.png": {
+      "upstream": "https://github.com/sofa-framework/sofa/blob/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics/data/pics/tongue_color.png",
+      "sha256": "8c1a350b943b68b3e070e47fa7b2c0e4e0db0f15da1ef725c9bb63de69a4004a"
+    }
+  }
+}

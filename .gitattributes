@@ -1,0 +1,11 @@
+* -text
+*.py text eol=lf
+*.ino text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.cmd text eol=crlf
+*.stl binary
+*.png binary
+*.npz binary
+*.obj binary

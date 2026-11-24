@@ -1,0 +1,667 @@
+{
+  "method": "Independent STL topology/ray probes and sampled rigid poses",
+  "limitations": [
+    "Nominal STL geometry only, no physical assembly or seal test.",
+    "Discrete poses cannot exclude collisions between samples.",
+    "Steel extraction through the cured silicone is not verified."
+  ],
+  "checks": {
+    "reused_closed_consistent_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": {
+        "triangles": 4752,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0
+      }
+    },
+    "reused_closed_consistent_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": {
+        "triangles": 3384,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0
+      }
+    },
+    "reused_closed_consistent_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": {
+        "triangles": 1564,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0
+      }
+    },
+    "reused_closed_consistent_tongue_root_bracket_v3.stl": {
+      "passed": true,
+      "detail": {
+        "triangles": 1620,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0
+      }
+    },
+    "closed_consistent_tongue_mold_upper_v4.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 2940,
+        "triangles": 5912,
+        "edges": 8868,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_mm3": 153669.8833394507,
+        "euler_characteristic": -16,
+        "bounds_mm": [
+          [
+            -34.08223342895508,
+            -9.15516471862793,
+            -7.629394644936838e-07
+          ],
+          [
+            34.08223342895508,
+            86.7376937866211,
+            27.2667236328125
+          ]
+        ],
+        "sha256": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3"
+      }
+    },
+    "print_floor_tongue_mold_upper_v4.stl": {
+      "passed": true,
+      "detail": [
+        [
+          -34.08223342895508,
+          -9.15516471862793,
+          -7.629394644936838e-07
+        ],
+        [
+          34.08223342895508,
+          86.7376937866211,
+          27.2667236328125
+        ]
+      ]
+    },
+    "closed_consistent_tongue_root_end_dam_v4.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 400,
+        "triangles": 812,
+        "edges": 1218,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_mm3": 1570.3279168289457,
+        "euler_characteristic": -6,
+        "bounds_mm": [
+          [
+            -11.0,
+            17.399999618530273,
+            0.0
+          ],
+          [
+            11.0,
+            33.0,
+            5.755164623260498
+          ]
+        ],
+        "sha256": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d"
+      }
+    },
+    "print_floor_tongue_root_end_dam_v4.stl": {
+      "passed": true,
+      "detail": [
+        [
+          -11.0,
+          17.399999618530273,
+          0.0
+        ],
+        [
+          11.0,
+          33.0,
+          5.755164623260498
+        ]
+      ]
+    },
+    "closed_consistent_tongue_tip_end_dam_v4.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 400,
+        "triangles": 812,
+        "edges": 1218,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_mm3": 1520.0581790708009,
+        "euler_characteristic": -6,
+        "bounds_mm": [
+          [
+            -9.0,
+            -31.5,
+            0.0
+          ],
+          [
+            6.0,
+            -17.399999618530273,
+            10.737693786621094
+          ]
+        ],
+        "sha256": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0"
+      }
+    },
+    "print_floor_tongue_tip_end_dam_v4.stl": {
+      "passed": true,
+      "detail": [
+        [
+          -9.0,
+          -31.5,
+          0.0
+        ],
+        [
+          6.0,
+          -17.399999618530273,
+          10.737693786621094
+        ]
+      ]
+    },
+    "six_M3_bores_and_bearing_rims": {
+      "passed": true,
+      "detail": [
+        {
+          "x": -29.082233428955078,
+          "z": -4.15516471862793,
+          "bores_open": true,
+          "rims_unchanged": true
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 38.79126453399658,
+          "bores_open": true,
+          "rims_unchanged": true
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 81.7376937866211,
+          "bores_open": true,
+          "rims_unchanged": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": -4.15516471862793,
+          "bores_open": true,
+          "rims_unchanged": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 38.79126453399658,
+          "bores_open": true,
+          "rims_unchanged": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 81.7376937866211,
+          "bores_open": true,
+          "rims_unchanged": true
+        }
+      ]
+    },
+    "four_registration_pins_and_sockets": {
+      "passed": true,
+      "detail": [
+        {
+          "x": -24.0,
+          "z": -4.15516471862793,
+          "pin_and_socket_unchanged": true
+        },
+        {
+          "x": -24.0,
+          "z": 81.7376937866211,
+          "pin_and_socket_unchanged": true
+        },
+        {
+          "x": 24.0,
+          "z": -4.15516471862793,
+          "pin_and_socket_unchanged": true
+        },
+        {
+          "x": 24.0,
+          "z": 81.7376937866211,
+          "pin_and_socket_unchanged": true
+        }
+      ]
+    },
+    "pour_and_two_vent_axial_passages": {
+      "passed": true,
+      "detail": [
+        {
+          "name": "pour",
+          "first_material_y_mm": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "passed": true
+        },
+        {
+          "name": "vent_1",
+          "first_material_y_mm": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "passed": true
+        },
+        {
+          "name": "vent_2",
+          "first_material_y_mm": [
+            21.815591515268167,
+            21.957162375982076,
+            null,
+            22.11270110441543,
+            21.521203832682136
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "eight_core_endcap_bores": {
+      "passed": true,
+      "detail": [
+        {
+          "end": "root_end",
+          "route": "LEFT",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "root_end",
+          "route": "RIGHT",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "root_end",
+          "route": "DOWN",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "root_end",
+          "route": "UP",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "tip_end",
+          "route": "LEFT",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "tip_end",
+          "route": "RIGHT",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "tip_end",
+          "route": "DOWN",
+          "diameter_1mm_clear": true
+        },
+        {
+          "end": "tip_end",
+          "route": "UP",
+          "diameter_1mm_clear": true
+        }
+      ]
+    },
+    "assembled_off_center_pour_lane": {
+      "passed": true,
+      "detail": {
+        "center_x_z_mm": [
+          2.5,
+          8.0
+        ],
+        "sample_radius_mm": 0.95,
+        "first_material_y_mm": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "sampled_loading_and_lower_closure": {
+      "passed": true,
+      "detail": {
+        "poses_per_part": 48,
+        "results": [
+          {
+            "part": "root_insert",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tip_anchor",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "root_end",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tip_end",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "core_DOWN",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "core_LEFT",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "core_RIGHT",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "core_UP",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tube_DOWN",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tube_LEFT",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tube_RIGHT",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          },
+          {
+            "part": "tube_UP",
+            "upper_max_overlap_mm3": 0.0,
+            "lower_max_overlap_mm3": 0.0,
+            "upper_worst_shift_mm": null,
+            "lower_worst_shift_mm": null
+          }
+        ]
+      }
+    },
+    "sampled_mold_half_closure": {
+      "passed": true,
+      "detail": {
+        "poses": 48,
+        "max_intersection_mm3": 0.0
+      }
+    },
+    "sampled_prethreading_from_straight_tails": {
+      "passed": true,
+      "detail": {
+        "poses_per_part": 49,
+        "results": [
+          {
+            "part": "root_insert",
+            "maximum_overlap_mm3": 0.0
+          },
+          {
+            "part": "tip_anchor",
+            "maximum_overlap_mm3": 0.0
+          },
+          {
+            "part": "root_end",
+            "maximum_overlap_mm3": 0.0
+          },
+          {
+            "part": "tip_end",
+            "maximum_overlap_mm3": 0.0
+          }
+        ]
+      }
+    },
+    "formerly_closed_roofs_now_accessible": {
+      "passed": true,
+      "detail": [
+        {
+          "point": "root_neck",
+          "first_material_y_mm": 30.82179874378422,
+          "target_top_y_mm": 20.0,
+          "passed": true
+        },
+        {
+          "point": "tip_center",
+          "first_material_y_mm": 28.95000095367432,
+          "target_top_y_mm": 21.25,
+          "passed": true
+        },
+        {
+          "point": "tip_left",
+          "first_material_y_mm": 28.95000095367432,
+          "target_top_y_mm": 21.25,
+          "passed": true
+        },
+        {
+          "point": "tip_right",
+          "first_material_y_mm": 28.950000953674316,
+          "target_top_y_mm": 21.25,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "meshes": {
+    "tongue_mold_upper_v4.stl": {
+      "vertices": 2940,
+      "triangles": 5912,
+      "edges": 8868,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 153669.8833394507,
+      "euler_characteristic": -16,
+      "bounds_mm": [
+        [
+          -34.08223342895508,
+          -9.15516471862793,
+          -7.629394644936838e-07
+        ],
+        [
+          34.08223342895508,
+          86.7376937866211,
+          27.2667236328125
+        ]
+      ],
+      "sha256": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3"
+    },
+    "tongue_root_end_dam_v4.stl": {
+      "vertices": 400,
+      "triangles": 812,
+      "edges": 1218,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 1570.3279168289457,
+      "euler_characteristic": -6,
+      "bounds_mm": [
+        [
+          -11.0,
+          17.399999618530273,
+          0.0
+        ],
+        [
+          11.0,
+          33.0,
+          5.755164623260498
+        ]
+      ],
+      "sha256": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d"
+    },
+    "tongue_tip_end_dam_v4.stl": {
+      "vertices": 400,
+      "triangles": 812,
+      "edges": 1218,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 1520.0581790708009,
+      "euler_characteristic": -6,
+      "bounds_mm": [
+        [
+          -9.0,
+          -31.5,
+          0.0
+        ],
+        [
+          6.0,
+          -17.399999618530273,
+          10.737693786621094
+        ]
+      ],
+      "sha256": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0"
+    }
+  },
+  "reused_meshes": {
+    "tongue_mold_lower_v2.stl": {
+      "vertices": 2366,
+      "triangles": 4752,
+      "edges": 7128,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 140305.0439084189,
+      "euler_characteristic": -10,
+      "bounds_mm": [
+        [
+          -34.08223342895508,
+          -86.7376937866211,
+          0.0
+        ],
+        [
+          34.08223342895508,
+          9.15516471862793,
+          29.268796920776367
+        ]
+      ],
+      "sha256": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a"
+    },
+    "tongue_root_insert_v2.stl": {
+      "vertices": 1666,
+      "triangles": 3384,
+      "edges": 5076,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 3624.122156583946,
+      "euler_characteristic": -26,
+      "bounds_mm": [
+        [
+          -18.5,
+          15.5,
+          0.0
+        ],
+        [
+          19.5,
+          34.5,
+          11.5
+        ]
+      ],
+      "sha256": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456"
+    },
+    "tongue_tip_anchor_v2.stl": {
+      "vertices": 776,
+      "triangles": 1564,
+      "edges": 2346,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 207.7611901240852,
+      "euler_characteristic": -6,
+      "bounds_mm": [
+        [
+          -8.0,
+          -28.75,
+          0.0
+        ],
+        [
+          5.0,
+          -21.25,
+          2.4000015258789062
+        ]
+      ],
+      "sha256": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1"
+    },
+    "tongue_root_bracket_v3.stl": {
+      "vertices": 794,
+      "triangles": 1620,
+      "edges": 2430,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 13866.203301795898,
+      "euler_characteristic": -16,
+      "bounds_mm": [
+        [
+          -27.5,
+          4.0,
+          0.0
+        ],
+        [
+          28.5,
+          40.0,
+          34.0
+        ]
+      ],
+      "sha256": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b"
+    }
+  },
+  "summary": {
+    "passed": true,
+    "number_of_checks": 19
+  }
+}

@@ -1,0 +1,836 @@
+[
+  {
+    "path": "tongue_motion.py",
+    "source": "tongue_motion.py",
+    "source_sha256": "bf94cb2afbdfc9eb7fee2129a3c281dd162e8353d6a4f36d5742dfd67c6a1227",
+    "sha256": "bf94cb2afbdfc9eb7fee2129a3c281dd162e8353d6a4f36d5742dfd67c6a1227",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/mesh/head.obj",
+    "source": "assets/mesh/head.obj",
+    "source_sha256": "fbadaf9754730da8fd466ba5fe5b8d0a78401c70407c219128edce63a5582cbe",
+    "sha256": "fbadaf9754730da8fd466ba5fe5b8d0a78401c70407c219128edce63a5582cbe",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/mesh/teeth.obj",
+    "source": "assets/mesh/teeth.obj",
+    "source_sha256": "d65b86af4f9b3260506a1b6777403cd39bd54dd90d2ef491448c66962d75114a",
+    "sha256": "d65b86af4f9b3260506a1b6777403cd39bd54dd90d2ef491448c66962d75114a",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/mesh/tongue.obj",
+    "source": "assets/mesh/tongue.obj",
+    "source_sha256": "afde885b7beac73aa94fc2156d847ab8000893c2d2014ef646bd63105fe8a3f9",
+    "sha256": "afde885b7beac73aa94fc2156d847ab8000893c2d2014ef646bd63105fe8a3f9",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/textures/head_baseTexBaked.png",
+    "source": "assets/textures/head_baseTexBaked.png",
+    "source_sha256": "cfd7fc269bd18e0994da7757a903b05f633e57ee6a01323448455c4ab01c5ac6",
+    "sha256": "cfd7fc269bd18e0994da7757a903b05f633e57ee6a01323448455c4ab01c5ac6",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/textures/teeth_color.png",
+    "source": "assets/textures/teeth_color.png",
+    "source_sha256": "379e08d375c0b6ca9ef785e2800c0aa6aeb1ead16f4eb2b9aa4d52813fded8b7",
+    "sha256": "379e08d375c0b6ca9ef785e2800c0aa6aeb1ead16f4eb2b9aa4d52813fded8b7",
+    "change": "unchanged"
+  },
+  {
+    "path": "assets/textures/tongue_color.png",
+    "source": "assets/textures/tongue_color.png",
+    "source_sha256": "8c1a350b943b68b3e070e47fa7b2c0e4e0db0f15da1ef725c9bb63de69a4004a",
+    "sha256": "8c1a350b943b68b3e070e47fa7b2c0e4e0db0f15da1ef725c9bb63de69a4004a",
+    "change": "unchanged"
+  },
+  {
+    "path": "firmware/tongue_controller_final/tongue_controller_final.ino",
+    "source": "hardware_prototype/arduino/tongue_controller_final/tongue_controller_final.ino",
+    "source_sha256": "3f0cacf31489b0b53650576d32be2174ad4600605205de76c7f37ccdfedc4613",
+    "sha256": "3f0cacf31489b0b53650576d32be2174ad4600605205de76c7f37ccdfedc4613",
+    "change": "unchanged"
+  },
+  {
+    "path": "firmware/tongue_controller_final/README_CN.md",
+    "source": "hardware_prototype/arduino/tongue_controller_final/README_CN.md",
+    "source_sha256": "ba677f18556a89d2afd4a915aef5ef16fb148bf425868b14f99b416e60b73d60",
+    "sha256": "ba677f18556a89d2afd4a915aef5ef16fb148bf425868b14f99b416e60b73d60",
+    "change": "unchanged"
+  },
+  {
+    "path": "firmware/single_servo_load_test/single_servo_load_test.ino",
+    "source": "hardware_prototype/arduino/single_servo_load_test/single_servo_load_test.ino",
+    "source_sha256": "4145700dce04cc8dfdfa9f92d8b67712764683d317ce881065622c1b9d43a00a",
+    "sha256": "4145700dce04cc8dfdfa9f92d8b67712764683d317ce881065622c1b9d43a00a",
+    "change": "unchanged"
+  },
+  {
+    "path": "firmware/single_servo_load_test/README_CN.md",
+    "source": "hardware_prototype/arduino/single_servo_load_test/README_CN.md",
+    "source_sha256": "99a4e7cfdbcd8be5d661e76fbaba82bf59805e06cb3b7a56126cefa22eb9052e",
+    "sha256": "99a4e7cfdbcd8be5d661e76fbaba82bf59805e06cb3b7a56126cefa22eb9052e",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/build_printables.py",
+    "source": "hardware_prototype/cad/build_printables.py",
+    "source_sha256": "473e70329c0dcdc5d07093fe3e9973b358da1bed7e5501bba322eb27198fe086",
+    "sha256": "473e70329c0dcdc5d07093fe3e9973b358da1bed7e5501bba322eb27198fe086",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/build_revision_v3.py",
+    "source": "hardware_prototype/cad/build_revision_v3.py",
+    "source_sha256": "4efe872a6bfd87cf43e13914696bd83edfe010e3a88c5a70b45a274e6b482939",
+    "sha256": "4efe872a6bfd87cf43e13914696bd83edfe010e3a88c5a70b45a274e6b482939",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/build_revision_v4.py",
+    "source": "hardware_prototype/cad/build_revision_v4.py",
+    "source_sha256": "bfb82cea994db4098483cd80c97365971226a01d14a0d2fa4a14e44f563c83dc",
+    "sha256": "bfb82cea994db4098483cd80c97365971226a01d14a0d2fa4a14e44f563c83dc",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/build_revision_v5.py",
+    "source": "hardware_prototype/cad/build_revision_v5.py",
+    "source_sha256": "3cdc6e89444f9fb6ec21e22bf99593518ff7c0f4764f3c7a60c8d6ed5123167d",
+    "sha256": "3cdc6e89444f9fb6ec21e22bf99593518ff7c0f4764f3c7a60c8d6ed5123167d",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/audit_printables.py",
+    "source": "hardware_prototype/cad/audit_printables.py",
+    "source_sha256": "5cbfdb8957831a4728afc74e66f7cfc6d8a95a4a10ebf6984d0827240808ed17",
+    "sha256": "5cbfdb8957831a4728afc74e66f7cfc6d8a95a4a10ebf6984d0827240808ed17",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/inspect_day3.py",
+    "source": "hardware_prototype/cad/inspect_day3.py",
+    "source_sha256": "1baca25fb69db08b7bf7bb51ca185ab6f3140411b4e577a551a6a2bac6a9e7f7",
+    "sha256": "1baca25fb69db08b7bf7bb51ca185ab6f3140411b4e577a551a6a2bac6a9e7f7",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/render_assembly_guide_v3.py",
+    "source": "hardware_prototype/cad/render_assembly_guide_v3.py",
+    "source_sha256": "333f483597f05f40e034b26981f12df436100dc83bfc040e618ef15dc29d367e",
+    "sha256": "333f483597f05f40e034b26981f12df436100dc83bfc040e618ef15dc29d367e",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/check_revision_v4_independent.py",
+    "source": "hardware_prototype/cad/check_revision_v4_independent.py",
+    "source_sha256": "61df3b4900e2c8ad41593ba24bec33c069a19b2f74a6ca7818616af1f66f423e",
+    "sha256": "61df3b4900e2c8ad41593ba24bec33c069a19b2f74a6ca7818616af1f66f423e",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/cad/check_revision_v5_independent.py",
+    "source": "hardware_prototype/cad/check_revision_v5_independent.py",
+    "source_sha256": "91bd0122486329112384cab79f84b801067f1f5171a86781ac8bd5b4f7ca2462",
+    "sha256": "91bd0122486329112384cab79f84b801067f1f5171a86781ac8bd5b4f7ca2462",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/mg90s_single_test_mount_v2.stl",
+    "source": "hardware_prototype/stl/mg90s_single_test_mount_v2.stl",
+    "source_sha256": "d4176ec0ac206bacdba622f5466231d03dd2520a9ca2284b187bcba69c96b350",
+    "sha256": "d4176ec0ac206bacdba622f5466231d03dd2520a9ca2284b187bcba69c96b350",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/tongue_mold_lower_v2.stl",
+    "source": "hardware_prototype/stl/tongue_mold_lower_v2.stl",
+    "source_sha256": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a",
+    "sha256": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/tongue_mold_upper_v2.stl",
+    "source": "hardware_prototype/stl/tongue_mold_upper_v2.stl",
+    "source_sha256": "707e47ab2f148b5a3352bf8461b59f4e1ff38d68d0438b085fcf350b4ba278ba",
+    "sha256": "707e47ab2f148b5a3352bf8461b59f4e1ff38d68d0438b085fcf350b4ba278ba",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/tongue_root_bracket_v2.stl",
+    "source": "hardware_prototype/stl/tongue_root_bracket_v2.stl",
+    "source_sha256": "3580f7497584b19f547a13ce0459ccb08a6acc86d64a114591292fe4b75e45e4",
+    "sha256": "3580f7497584b19f547a13ce0459ccb08a6acc86d64a114591292fe4b75e45e4",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/tongue_root_insert_v2.stl",
+    "source": "hardware_prototype/stl/tongue_root_insert_v2.stl",
+    "source_sha256": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456",
+    "sha256": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/stl/tongue_tip_anchor_v2.stl",
+    "source": "hardware_prototype/stl/tongue_tip_anchor_v2.stl",
+    "source_sha256": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1",
+    "sha256": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v3/print/tongue_root_bracket_v3.stl",
+    "source": "hardware_prototype/revision_v3/print/tongue_root_bracket_v3.stl",
+    "source_sha256": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b",
+    "sha256": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v3/print/tongue_root_bracket_v3_base_3mm.stl",
+    "source": "hardware_prototype/revision_v3/print/tongue_root_bracket_v3_base_3mm.stl",
+    "source_sha256": "f4d2a5f6bad9dc1076a751e224ecb6eb77cf3908fbda7fec93d290372d8b15fe",
+    "sha256": "f4d2a5f6bad9dc1076a751e224ecb6eb77cf3908fbda7fec93d290372d8b15fe",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v3/templates/tube_path_side_v3_A4_1to1.svg",
+    "source": "hardware_prototype/revision_v3/templates/tube_path_side_v3_A4_1to1.svg",
+    "source_sha256": "95a58d53058f3b0803682bd3edd1baacc8b41fd7d1dc988551dae1a8dbc53ae1",
+    "sha256": "2484c1869b38b6f727cf39472700fec481e6b376c628532c2c84ed7785de5e3f",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v3/templates/tube_path_top_v3_A4_1to1.svg",
+    "source": "hardware_prototype/revision_v3/templates/tube_path_top_v3_A4_1to1.svg",
+    "source_sha256": "eeb937bf3675bab3c43e435f4c913dbccc1b6cf16ba5a9db89fd2c963393c441",
+    "sha256": "d3b6c0c560930f060e68db520b510957ff35d5b3dc8c0b27438d6de49736e177",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v3/audit/V3_GEOMETRY_AUDIT.json",
+    "source": "hardware_prototype/revision_v3/audit/V3_GEOMETRY_AUDIT.json",
+    "source_sha256": "de9adbfe96ac731def0449ec9c73a33aa4f7fff8ecc3cdcec67f73fafde0b62c",
+    "sha256": "135b7c5d6021060adb3cc180fff649d843a9e4b6479b892511ce01a74157acf1",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/print/tongue_mold_upper_v4.stl",
+    "source": "hardware_prototype/revision_v4/print/tongue_mold_upper_v4.stl",
+    "source_sha256": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3",
+    "sha256": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/print/tongue_root_end_dam_v4.stl",
+    "source": "hardware_prototype/revision_v4/print/tongue_root_end_dam_v4.stl",
+    "source_sha256": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d",
+    "sha256": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/print/tongue_tip_end_dam_v4.stl",
+    "source": "hardware_prototype/revision_v4/print/tongue_tip_end_dam_v4.stl",
+    "source_sha256": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0",
+    "sha256": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/core_DOWN.stl",
+    "source": "hardware_prototype/revision_v4/reference/core_DOWN.stl",
+    "source_sha256": "fffd88f47b253ba1b447114a24467ae5ad0d236853ae3541b2a9c1375e9884cd",
+    "sha256": "fffd88f47b253ba1b447114a24467ae5ad0d236853ae3541b2a9c1375e9884cd",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/core_LEFT.stl",
+    "source": "hardware_prototype/revision_v4/reference/core_LEFT.stl",
+    "source_sha256": "b3bfdd2cf023b11d0647b80adf23a9b665d326ac6544ddb2a304066d3e1beea1",
+    "sha256": "b3bfdd2cf023b11d0647b80adf23a9b665d326ac6544ddb2a304066d3e1beea1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/core_RIGHT.stl",
+    "source": "hardware_prototype/revision_v4/reference/core_RIGHT.stl",
+    "source_sha256": "012e2e54e660cd39549ef788bb539fd98db7c76cb78b4e2a293ae4e5af0c0df9",
+    "sha256": "012e2e54e660cd39549ef788bb539fd98db7c76cb78b4e2a293ae4e5af0c0df9",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/core_UP.stl",
+    "source": "hardware_prototype/revision_v4/reference/core_UP.stl",
+    "source_sha256": "f66ebe648f53597f39ee73041ddbfad6d2ce41f11ddb6d250a6860466380ace7",
+    "sha256": "f66ebe648f53597f39ee73041ddbfad6d2ce41f11ddb6d250a6860466380ace7",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/lower_world.stl",
+    "source": "hardware_prototype/revision_v4/reference/lower_world.stl",
+    "source_sha256": "dc9534a1827521f15c9e285093d59a3619658e2a11450c0057d5f14a4b3180e3",
+    "sha256": "dc9534a1827521f15c9e285093d59a3619658e2a11450c0057d5f14a4b3180e3",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/root_end_dam_v4.stl",
+    "source": "hardware_prototype/revision_v4/reference/root_end_dam_v4.stl",
+    "source_sha256": "37dd565ab99727b1420356131641a4e4bcc1b8e1e99c080c721ef2a9d0981451",
+    "sha256": "37dd565ab99727b1420356131641a4e4bcc1b8e1e99c080c721ef2a9d0981451",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/root_insert_v2.stl",
+    "source": "hardware_prototype/revision_v4/reference/root_insert_v2.stl",
+    "source_sha256": "fb79d5bd7b819ab14b9738caef59edf69067ea6e71f23c458f57fcf4fff30e47",
+    "sha256": "fb79d5bd7b819ab14b9738caef59edf69067ea6e71f23c458f57fcf4fff30e47",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tip_anchor_v2.stl",
+    "source": "hardware_prototype/revision_v4/reference/tip_anchor_v2.stl",
+    "source_sha256": "8fd3f96e78e50ae3436d9441119a0d1321e0af6be6cd86a21846d5edf9f9ac74",
+    "sha256": "8fd3f96e78e50ae3436d9441119a0d1321e0af6be6cd86a21846d5edf9f9ac74",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tip_end_dam_v4.stl",
+    "source": "hardware_prototype/revision_v4/reference/tip_end_dam_v4.stl",
+    "source_sha256": "9b7ba3015e21b7cf846d05e65d0956764977cd9b3dbcddcfc13b3b41c73b4d47",
+    "sha256": "9b7ba3015e21b7cf846d05e65d0956764977cd9b3dbcddcfc13b3b41c73b4d47",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tube_DOWN.stl",
+    "source": "hardware_prototype/revision_v4/reference/tube_DOWN.stl",
+    "source_sha256": "4a75f38ed4b0a34795182bf4da20acefc39a0954d0aa35d55c937dceb3298bcf",
+    "sha256": "4a75f38ed4b0a34795182bf4da20acefc39a0954d0aa35d55c937dceb3298bcf",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tube_LEFT.stl",
+    "source": "hardware_prototype/revision_v4/reference/tube_LEFT.stl",
+    "source_sha256": "6e5c94b29f03459792fdcf89ddfc5ef5d3abd3276696b54235cf249a3f5c59a0",
+    "sha256": "6e5c94b29f03459792fdcf89ddfc5ef5d3abd3276696b54235cf249a3f5c59a0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tube_RIGHT.stl",
+    "source": "hardware_prototype/revision_v4/reference/tube_RIGHT.stl",
+    "source_sha256": "babc1a06f75c89fb4d6df85d8a2813b854d722de1a4ae9bcbe3b780853212b03",
+    "sha256": "babc1a06f75c89fb4d6df85d8a2813b854d722de1a4ae9bcbe3b780853212b03",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/tube_UP.stl",
+    "source": "hardware_prototype/revision_v4/reference/tube_UP.stl",
+    "source_sha256": "8730cddbc30c9cba23bec366018ea93ea8a370cd80b42593a4f1911c73f60434",
+    "sha256": "8730cddbc30c9cba23bec366018ea93ea8a370cd80b42593a4f1911c73f60434",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/reference/upper_world.stl",
+    "source": "hardware_prototype/revision_v4/reference/upper_world.stl",
+    "source_sha256": "c440606ea27f7c000ff16de51839589372f4c4668b8c6ab36be29f1e43885fb8",
+    "sha256": "c440606ea27f7c000ff16de51839589372f4c4668b8c6ab36be29f1e43885fb8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/V4_GEOMETRY_AUDIT.json",
+    "source": "hardware_prototype/revision_v4/audit/V4_GEOMETRY_AUDIT.json",
+    "source_sha256": "a79d4efb877b4f56c9ca2d2f3e5aa222129babcafdbb55f408304beee3fbf1c8",
+    "sha256": "9e51892c7742807ff77966348b7fae8afff485822ab4621207ecae1826653be4",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/V4_INDEPENDENT_CHECK.json",
+    "source": "hardware_prototype/revision_v4/audit/V4_INDEPENDENT_CHECK.json",
+    "source_sha256": "93339338868cdf042bb12a05818affa1cda1db3d6ac1b3a013596575ccd32e24",
+    "sha256": "d5485d5dd4d1184eb6a5a402ff6d841fa72ee52b93022fb1e3c7ad944457db58",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/V4_RELEASE_MANIFEST.json",
+    "source": "hardware_prototype/revision_v4/audit/V4_RELEASE_MANIFEST.json",
+    "source_sha256": "b01b2cd35f262b7621a0e64d907dd0de49bfadd01b3a7587e7282b8fcfd93744",
+    "sha256": "c5e3756b858c3138bf159b28e1f35610c45e97b8b78d15785e86f08294c4b7cc",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/04da251319d36ea3081ea7233f4bd1d46b87534c1f255fe52c4749b71a6fc542.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/04da251319d36ea3081ea7233f4bd1d46b87534c1f255fe52c4749b71a6fc542.npz",
+    "source_sha256": "85d66392422f9f57f085149faf91a870892a8e94bb967c364c6abd0f882870cf",
+    "sha256": "85d66392422f9f57f085149faf91a870892a8e94bb967c364c6abd0f882870cf",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/1846c08a96f299200607c5c9d55e9cf53363472f2125527dc31a70c801386650.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/1846c08a96f299200607c5c9d55e9cf53363472f2125527dc31a70c801386650.npz",
+    "source_sha256": "f2441110adaffdcd636f8d3ddc4eb2db4d0667740f923efaed2cd0a732e486ca",
+    "sha256": "f2441110adaffdcd636f8d3ddc4eb2db4d0667740f923efaed2cd0a732e486ca",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/1b99c5d2552cb68c3252d8fdd537d28985f9167a7fefaeb4170e901ba95de260.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/1b99c5d2552cb68c3252d8fdd537d28985f9167a7fefaeb4170e901ba95de260.npz",
+    "source_sha256": "e30c9988b0431cc3944a7090625f9947b145fa2d6c1fb36305aa4491bd99a85b",
+    "sha256": "e30c9988b0431cc3944a7090625f9947b145fa2d6c1fb36305aa4491bd99a85b",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/1e65c2c43697c838fcbf55e76259258477231e00d3d72af86522056d3344ba49.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/1e65c2c43697c838fcbf55e76259258477231e00d3d72af86522056d3344ba49.npz",
+    "source_sha256": "7ea5217e67fcf8fe441c5c9e5c5b6171f49db2963b9b8279f0f3be8fcd1b2ede",
+    "sha256": "7ea5217e67fcf8fe441c5c9e5c5b6171f49db2963b9b8279f0f3be8fcd1b2ede",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/211ddd5e3aff13c646d09945be9425fe7b4c58ee93ec910765092bd05b988447.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/211ddd5e3aff13c646d09945be9425fe7b4c58ee93ec910765092bd05b988447.npz",
+    "source_sha256": "1c573de5a1f3da543c0df07103f24f790999c36c955227b2be297e6eb0f0fdf2",
+    "sha256": "1c573de5a1f3da543c0df07103f24f790999c36c955227b2be297e6eb0f0fdf2",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/213545dd5649bb24094b880de7967cd3b2c678210d092244c0814aa159517b75.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/213545dd5649bb24094b880de7967cd3b2c678210d092244c0814aa159517b75.npz",
+    "source_sha256": "205b83151d373a573edd8efb879daecb7e88d2c92c195d5432f8b711e59f39c9",
+    "sha256": "205b83151d373a573edd8efb879daecb7e88d2c92c195d5432f8b711e59f39c9",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/23cbabd6ce97ff0d432b017021530d857610c74419f05a5db7f09785ce86b302.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/23cbabd6ce97ff0d432b017021530d857610c74419f05a5db7f09785ce86b302.npz",
+    "source_sha256": "11866639899ead742a264c0d86e027ba6bbaf36fce3b5e58dd91bdced7d460af",
+    "sha256": "11866639899ead742a264c0d86e027ba6bbaf36fce3b5e58dd91bdced7d460af",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/24096caa7b1f2e8e7be3f48694607e5dbc5726108e6eb98ebd9d4f12e2973a58.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/24096caa7b1f2e8e7be3f48694607e5dbc5726108e6eb98ebd9d4f12e2973a58.npz",
+    "source_sha256": "1069d3b5e90c1db2e886bf6055943f60e6d4f2c1d579701b47a1cbb4df7aa6cd",
+    "sha256": "1069d3b5e90c1db2e886bf6055943f60e6d4f2c1d579701b47a1cbb4df7aa6cd",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/27711481fec62b3eddcb6a79e86721dc6addd735a1ee5c9a71dfff77ba6a2763.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/27711481fec62b3eddcb6a79e86721dc6addd735a1ee5c9a71dfff77ba6a2763.npz",
+    "source_sha256": "d22c084e7ba3ab04d871fedc83fee39e9aa3055b1dfcb443c40cb829266d040d",
+    "sha256": "d22c084e7ba3ab04d871fedc83fee39e9aa3055b1dfcb443c40cb829266d040d",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/27e89d84b42b8856fa6bf4394244365c2c4c3d80bc115de5e91ba138d1837df8.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/27e89d84b42b8856fa6bf4394244365c2c4c3d80bc115de5e91ba138d1837df8.npz",
+    "source_sha256": "af147bb913c3a2babd3667c80e9c9acef63108475dcd4c7440203eea2bb99d5a",
+    "sha256": "af147bb913c3a2babd3667c80e9c9acef63108475dcd4c7440203eea2bb99d5a",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/281eaf492505f10f2f0bc549049eb6d9d21e689eed9cacb19fe6fbb42716dff6.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/281eaf492505f10f2f0bc549049eb6d9d21e689eed9cacb19fe6fbb42716dff6.npz",
+    "source_sha256": "1f117e9474aa196565a410639cee15efd0dd119805f336c2c85123e28fc6efef",
+    "sha256": "1f117e9474aa196565a410639cee15efd0dd119805f336c2c85123e28fc6efef",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/3010e23cae1e6c35207f529de0056305adbd28db8b8ef3d29c3ba7432d5ace6e.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/3010e23cae1e6c35207f529de0056305adbd28db8b8ef3d29c3ba7432d5ace6e.npz",
+    "source_sha256": "900ed364d6d78ccca9652a447870deb22c3ee8655a2bbad03817a7f888d635b0",
+    "sha256": "900ed364d6d78ccca9652a447870deb22c3ee8655a2bbad03817a7f888d635b0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/306aa02dd314ff976b380ee3011a853eaa43ea3e4552b67ef0dfb87d936e90fb.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/306aa02dd314ff976b380ee3011a853eaa43ea3e4552b67ef0dfb87d936e90fb.npz",
+    "source_sha256": "2bbedba4254ec0d9e110714abe65b61f7a084ea0cfb06136e1042dd149c92ad8",
+    "sha256": "2bbedba4254ec0d9e110714abe65b61f7a084ea0cfb06136e1042dd149c92ad8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/30fd4146f2b37029ec515288b22d14c98ec00bec4966a0491f508d5b7e57eef4.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/30fd4146f2b37029ec515288b22d14c98ec00bec4966a0491f508d5b7e57eef4.npz",
+    "source_sha256": "4d66b03de6c03a03cd1587c06b5de5ee195ade2e459f3b31bb5e699065de6abd",
+    "sha256": "4d66b03de6c03a03cd1587c06b5de5ee195ade2e459f3b31bb5e699065de6abd",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/3605704944ba5e242ea6d24335e65f96ffa7dcf0e23ec3974d194211bf9f67ce.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/3605704944ba5e242ea6d24335e65f96ffa7dcf0e23ec3974d194211bf9f67ce.npz",
+    "source_sha256": "a8b60c3910b3093723c30565b46095d3165f0e433fc166e053df42711e44f431",
+    "sha256": "a8b60c3910b3093723c30565b46095d3165f0e433fc166e053df42711e44f431",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/3bfbb294fb244d5f1a4b5862633751a0abab653265a41f1a87613046776d066d.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/3bfbb294fb244d5f1a4b5862633751a0abab653265a41f1a87613046776d066d.npz",
+    "source_sha256": "c106ab19df7f41be35ac1e4831a7a2b60a8ce81723c2e8fadaaf1f16837580a2",
+    "sha256": "c106ab19df7f41be35ac1e4831a7a2b60a8ce81723c2e8fadaaf1f16837580a2",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/3ea3a3549cac55542f6dafb43a695b703c8d476c4e00bb3edf62e2215799bfa0.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/3ea3a3549cac55542f6dafb43a695b703c8d476c4e00bb3edf62e2215799bfa0.npz",
+    "source_sha256": "708fe7906a3c09fbb8c34d73a0c2325477716e87960aa2cfce9cf8a0a3de9718",
+    "sha256": "708fe7906a3c09fbb8c34d73a0c2325477716e87960aa2cfce9cf8a0a3de9718",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/3ebd517fc7feb98bece4d683342fa9df8dd5644aefaf4f79cf3d12aa925a8949.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/3ebd517fc7feb98bece4d683342fa9df8dd5644aefaf4f79cf3d12aa925a8949.npz",
+    "source_sha256": "1447f27b3ca3a80f9a794f411fdec41e2c5d0902550c2020bc33eeac4b07ee29",
+    "sha256": "1447f27b3ca3a80f9a794f411fdec41e2c5d0902550c2020bc33eeac4b07ee29",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/502fbcb382957f9a5945613682ab53d543843e62daa7884d1cf540ced53f1d7a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/502fbcb382957f9a5945613682ab53d543843e62daa7884d1cf540ced53f1d7a.npz",
+    "source_sha256": "add97603ec15280fe6ac275c1e8af52325b2c500cf87a92da1cdee55f15fe725",
+    "sha256": "add97603ec15280fe6ac275c1e8af52325b2c500cf87a92da1cdee55f15fe725",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/5390190f39f5fc7b7583b82c3d6ca5c76aa4583c8355982e25a79a10afab4f53.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/5390190f39f5fc7b7583b82c3d6ca5c76aa4583c8355982e25a79a10afab4f53.npz",
+    "source_sha256": "500c431923a51a4d10d8348adf21547d25f7ee886089ea3da929907ed1dbbb92",
+    "sha256": "500c431923a51a4d10d8348adf21547d25f7ee886089ea3da929907ed1dbbb92",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/61b43a12502fed25684aa01a3aaa86e2201f8f6c6d83814e5d9c0df853d2b3b4.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/61b43a12502fed25684aa01a3aaa86e2201f8f6c6d83814e5d9c0df853d2b3b4.npz",
+    "source_sha256": "d2d167a82d1881658cd079df6d7b3fec95478acd426bb5d032ad69aa5b5df6e6",
+    "sha256": "d2d167a82d1881658cd079df6d7b3fec95478acd426bb5d032ad69aa5b5df6e6",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/65d2aea5e070589f6d59af4e8a6bb8c0129d7e9c398acaafd32533b38ad5e4a1.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/65d2aea5e070589f6d59af4e8a6bb8c0129d7e9c398acaafd32533b38ad5e4a1.npz",
+    "source_sha256": "de2ed32a3bad6f2502598e0c9d2f18f25ada2b8ce1ed38ac5acadd850bbeb8d0",
+    "sha256": "de2ed32a3bad6f2502598e0c9d2f18f25ada2b8ce1ed38ac5acadd850bbeb8d0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/67b959c645982997267b9bce0180c7449030977d9a4ac58fe48571766361db8a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/67b959c645982997267b9bce0180c7449030977d9a4ac58fe48571766361db8a.npz",
+    "source_sha256": "2c71e64865e26635f3948e0949919e227d45c0a9b27150b340c6ef125d2b43d0",
+    "sha256": "2c71e64865e26635f3948e0949919e227d45c0a9b27150b340c6ef125d2b43d0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/6912e8f0b7d8a76555519ffc289cef86cc3988245758a47e55da43fde02a3e19.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/6912e8f0b7d8a76555519ffc289cef86cc3988245758a47e55da43fde02a3e19.npz",
+    "source_sha256": "bbb084a7c47f42ab53d4ec11ffd8069843a7590c361125a4057613e33daadfa8",
+    "sha256": "bbb084a7c47f42ab53d4ec11ffd8069843a7590c361125a4057613e33daadfa8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/7437c0f02762000016bedc0178ad1aad7a476433bf62073e27664db513398842.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/7437c0f02762000016bedc0178ad1aad7a476433bf62073e27664db513398842.npz",
+    "source_sha256": "853498c6d2f97c6b7e50db61f1cd1892fee3aec2a8c4796b80a8b122994e1224",
+    "sha256": "853498c6d2f97c6b7e50db61f1cd1892fee3aec2a8c4796b80a8b122994e1224",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/80706c802131be0571648cc5e9e88bc6ecb5bbc37fd0bdcf7b993d799714edb3.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/80706c802131be0571648cc5e9e88bc6ecb5bbc37fd0bdcf7b993d799714edb3.npz",
+    "source_sha256": "dee679037b480f5f6b1dd839df16913f6dc85395991f9d8f29ea0c95e7fe3de8",
+    "sha256": "dee679037b480f5f6b1dd839df16913f6dc85395991f9d8f29ea0c95e7fe3de8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/8119e46cdda55d3c79fc202cec5a906ab173c7ab5a61fcf15f5ec55bbdcb4350.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/8119e46cdda55d3c79fc202cec5a906ab173c7ab5a61fcf15f5ec55bbdcb4350.npz",
+    "source_sha256": "03da186c1b0ca5f2588fb8ee96479eab7b0f7e8bac1ba3f10172074857dbc0b2",
+    "sha256": "03da186c1b0ca5f2588fb8ee96479eab7b0f7e8bac1ba3f10172074857dbc0b2",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/85a8d1d07b5fd4078380b8058c304352825aff4fc4c4aee455cff62478447368.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/85a8d1d07b5fd4078380b8058c304352825aff4fc4c4aee455cff62478447368.npz",
+    "source_sha256": "b4fa21749dd769e70b7bad058a7ebe1491d073617b59bfc35846c15866ad9ff1",
+    "sha256": "b4fa21749dd769e70b7bad058a7ebe1491d073617b59bfc35846c15866ad9ff1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/8b4de192202d63871ff6c687671590001bf61d77b906fd1d26e65c009a1a2ca6.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/8b4de192202d63871ff6c687671590001bf61d77b906fd1d26e65c009a1a2ca6.npz",
+    "source_sha256": "19de05da4417ea8f82500c446ca4e7125e92530bdf91741a0ebb8eb782f34e70",
+    "sha256": "19de05da4417ea8f82500c446ca4e7125e92530bdf91741a0ebb8eb782f34e70",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/8f224b558c422b14de0a82d57f38d4bea62b4df00849eeac110d8c7c79a4254d.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/8f224b558c422b14de0a82d57f38d4bea62b4df00849eeac110d8c7c79a4254d.npz",
+    "source_sha256": "2132a42e6cc6e2901587b0c7ed465bcfafda5e328d801db3a87293dccb3931d4",
+    "sha256": "2132a42e6cc6e2901587b0c7ed465bcfafda5e328d801db3a87293dccb3931d4",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/929257fcdd2e9e535625c2fb83e2f0766efadee97a1faf35564198c8be69bfc2.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/929257fcdd2e9e535625c2fb83e2f0766efadee97a1faf35564198c8be69bfc2.npz",
+    "source_sha256": "249fa35e0fdf52d33cdb27d6768a7a2d2890c93d9af7f070fa353d61cbdfaaa2",
+    "sha256": "249fa35e0fdf52d33cdb27d6768a7a2d2890c93d9af7f070fa353d61cbdfaaa2",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/95e107c6a8b25f8ba13fa23c544390bf398c685c8d8d4916d8a1d7c907e45c80.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/95e107c6a8b25f8ba13fa23c544390bf398c685c8d8d4916d8a1d7c907e45c80.npz",
+    "source_sha256": "869b5f1f0b6a624edd11ac2064d97692d4ab2b9a6ae8bdd475b4696f8057ba49",
+    "sha256": "869b5f1f0b6a624edd11ac2064d97692d4ab2b9a6ae8bdd475b4696f8057ba49",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/9815bd95bb3e13b7bf14c8736bdef6be19fc5b9cbd991bcfa356189f6aa8b213.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/9815bd95bb3e13b7bf14c8736bdef6be19fc5b9cbd991bcfa356189f6aa8b213.npz",
+    "source_sha256": "053c32a11784174b32a3011de12989692c1f6f41f457b0ffdaffc1022e682ecf",
+    "sha256": "053c32a11784174b32a3011de12989692c1f6f41f457b0ffdaffc1022e682ecf",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/9a628cd973abf5b78d74ee09e3454a507eb08feb64115b4ac7091abedd5a80a9.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/9a628cd973abf5b78d74ee09e3454a507eb08feb64115b4ac7091abedd5a80a9.npz",
+    "source_sha256": "db121dcf63341ca0e96370c27da994bc59a1336104ac0a426575ff49c42ea1a5",
+    "sha256": "db121dcf63341ca0e96370c27da994bc59a1336104ac0a426575ff49c42ea1a5",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/9d94285effc9a48b8e3f2dc1d8a4d8af758b6467545af5f1f08d2acbd46ceb90.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/9d94285effc9a48b8e3f2dc1d8a4d8af758b6467545af5f1f08d2acbd46ceb90.npz",
+    "source_sha256": "3e585ed8cedaff3877046ec70bc04ec955dac36d9a472d8a2fb787e1bec20ce1",
+    "sha256": "3e585ed8cedaff3877046ec70bc04ec955dac36d9a472d8a2fb787e1bec20ce1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/a26d3938fbacd0d0735d06918adadf2ccf2d5ed3c7a666eb3af2d93809ea29e6.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/a26d3938fbacd0d0735d06918adadf2ccf2d5ed3c7a666eb3af2d93809ea29e6.npz",
+    "source_sha256": "8e18c2eb9adbde1f695f4be53d0614b365155bca562de8eac66e8a36b367c9d3",
+    "sha256": "8e18c2eb9adbde1f695f4be53d0614b365155bca562de8eac66e8a36b367c9d3",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/a8498d1549f615d176a57db975a5db16a1bc382f873da076863a3663c496ca09.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/a8498d1549f615d176a57db975a5db16a1bc382f873da076863a3663c496ca09.npz",
+    "source_sha256": "676a6e4f88d8e812edb18f25c9f4aa0e807617558c4812cec24175857d9ad005",
+    "sha256": "676a6e4f88d8e812edb18f25c9f4aa0e807617558c4812cec24175857d9ad005",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/a9850eaff0b6aa0db40f3036acb40451c315a05bea75972ef294a177b4283c5a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/a9850eaff0b6aa0db40f3036acb40451c315a05bea75972ef294a177b4283c5a.npz",
+    "source_sha256": "f926bcc4606f5ec4219352181fd6a1d520b0bde7e24c6a050f10a90b32d4cb62",
+    "sha256": "f926bcc4606f5ec4219352181fd6a1d520b0bde7e24c6a050f10a90b32d4cb62",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/b5d36747aaab79a2987d1d96077861945d1706a79638518ba60233520bc52d6a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/b5d36747aaab79a2987d1d96077861945d1706a79638518ba60233520bc52d6a.npz",
+    "source_sha256": "5a0ac3c73b06090e348343aa8ac0fd1804148b085ea84bb771f9fc3fd3e3ab54",
+    "sha256": "5a0ac3c73b06090e348343aa8ac0fd1804148b085ea84bb771f9fc3fd3e3ab54",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/bd1a6c7583a72fdd4cadbe7fdcd42f81b0b83f4f0c7166bf2fbb118029d6769b.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/bd1a6c7583a72fdd4cadbe7fdcd42f81b0b83f4f0c7166bf2fbb118029d6769b.npz",
+    "source_sha256": "84ecdff23cdef92557b523ddc79fa0299c940b3f465d9e024ef1a248015c9e1f",
+    "sha256": "84ecdff23cdef92557b523ddc79fa0299c940b3f465d9e024ef1a248015c9e1f",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/be47ca47b6671bd4ddc76eb5f18ffe575ec7084e6aee3fc7847ea60ace7e66fb.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/be47ca47b6671bd4ddc76eb5f18ffe575ec7084e6aee3fc7847ea60ace7e66fb.npz",
+    "source_sha256": "4a2f5ba87c529042132291d3f0d02f362f2e39f588c0f858b74702de630c17e1",
+    "sha256": "4a2f5ba87c529042132291d3f0d02f362f2e39f588c0f858b74702de630c17e1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c1024089d761c0d3465af809a17ffbcdc1e42f49ba73d41963e9491233e199ee.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c1024089d761c0d3465af809a17ffbcdc1e42f49ba73d41963e9491233e199ee.npz",
+    "source_sha256": "9ae5fbb043b003ab2965bac0e26d50c60c8daf12da5192e13fbc798dade375bb",
+    "sha256": "9ae5fbb043b003ab2965bac0e26d50c60c8daf12da5192e13fbc798dade375bb",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c12a2e19e9a0c9c83642cabdbc4bff006cf76592228c1492f0db5d79650d38b2.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c12a2e19e9a0c9c83642cabdbc4bff006cf76592228c1492f0db5d79650d38b2.npz",
+    "source_sha256": "eca17616250841f3a89285f751e27d535c78ac96dd0820a23eae4af254e195b8",
+    "sha256": "eca17616250841f3a89285f751e27d535c78ac96dd0820a23eae4af254e195b8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c303087dd1ad9f9a8bb561812dce7840b6bf7e050df08cc453e70a0e85980ed0.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c303087dd1ad9f9a8bb561812dce7840b6bf7e050df08cc453e70a0e85980ed0.npz",
+    "source_sha256": "10bb465a65e4ba0176e185d970dbc737a913db0cab3ce9a15fae84f3de47a427",
+    "sha256": "10bb465a65e4ba0176e185d970dbc737a913db0cab3ce9a15fae84f3de47a427",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c6a9cb2e96cf986ae9e3856ae69b70d05eccaaa5edc05c592541c33fb7e1d6d9.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c6a9cb2e96cf986ae9e3856ae69b70d05eccaaa5edc05c592541c33fb7e1d6d9.npz",
+    "source_sha256": "ff6dcbc05e7905fadb3dd5866b80831e6f98ec6f505942550c6a8677bdbefbc0",
+    "sha256": "ff6dcbc05e7905fadb3dd5866b80831e6f98ec6f505942550c6a8677bdbefbc0",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c76e52bfd8aaf12cfd36433501faac8119e135a2afa75dc4ac210b93d81c99d3.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c76e52bfd8aaf12cfd36433501faac8119e135a2afa75dc4ac210b93d81c99d3.npz",
+    "source_sha256": "c0ec08237cd4c96ebbdd372c6f9a668f1756efada85ad410f64c09b28e0a54ba",
+    "sha256": "c0ec08237cd4c96ebbdd372c6f9a668f1756efada85ad410f64c09b28e0a54ba",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/c935dd9c854a72c844969a7b5e095502136de806ac68f62bfdaa6e6ac90c293a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/c935dd9c854a72c844969a7b5e095502136de806ac68f62bfdaa6e6ac90c293a.npz",
+    "source_sha256": "ae0e8c680e7c9f4a8984e1cd288065a3aa936db0e10023281a724b5875b23c95",
+    "sha256": "ae0e8c680e7c9f4a8984e1cd288065a3aa936db0e10023281a724b5875b23c95",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/d9fb32a88428878503b2be58121af4f8a964a3f91726b9038d81d7dfe53bb081.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/d9fb32a88428878503b2be58121af4f8a964a3f91726b9038d81d7dfe53bb081.npz",
+    "source_sha256": "dd5aa81623d8c508ae649346d735322ffc1bf81b95b9b4fd79a228831d37d9f6",
+    "sha256": "dd5aa81623d8c508ae649346d735322ffc1bf81b95b9b4fd79a228831d37d9f6",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/eec781f8f7ff7d303f7f5b95c5d706808d7e4e4f7711f7512ad0a8f71a91ba1b.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/eec781f8f7ff7d303f7f5b95c5d706808d7e4e4f7711f7512ad0a8f71a91ba1b.npz",
+    "source_sha256": "3432b642b1506681c01aa73ef4f67f0403a821f735c7ee09a3abc8b9a03264b7",
+    "sha256": "3432b642b1506681c01aa73ef4f67f0403a821f735c7ee09a3abc8b9a03264b7",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/f4be060f4dfaf1d2bedd304ce26929bbbe527dcc5d1506c58b21d2eb92fc5004.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/f4be060f4dfaf1d2bedd304ce26929bbbe527dcc5d1506c58b21d2eb92fc5004.npz",
+    "source_sha256": "3b962cfa9990136747bdc3bc99368aed05df988bad0cb6472863d004d8f0a837",
+    "sha256": "3b962cfa9990136747bdc3bc99368aed05df988bad0cb6472863d004d8f0a837",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/f6234bc595602222f63aa591764b7223260e2ca027dd07d788a8565c5c65018e.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/f6234bc595602222f63aa591764b7223260e2ca027dd07d788a8565c5c65018e.npz",
+    "source_sha256": "02990f0fb53545a1d7eeda7db53ef06a298ee52f49254d7361b357b711f6eefd",
+    "sha256": "02990f0fb53545a1d7eeda7db53ef06a298ee52f49254d7361b357b711f6eefd",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/fc338479f7f660d5da94ac32655f8cd9ba89ad256ad3ca2698e569c958b035d6.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/fc338479f7f660d5da94ac32655f8cd9ba89ad256ad3ca2698e569c958b035d6.npz",
+    "source_sha256": "e0629361414b1d1deae264809ebd39574e9e3c58697d896868dbe63ae9a2f91d",
+    "sha256": "e0629361414b1d1deae264809ebd39574e9e3c58697d896868dbe63ae9a2f91d",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/audit/cache/ffa2f50aee853e8fc65dbb6ec15d6a6805eebed3d0e9b9f77c78e64ae92e559a.npz",
+    "source": "hardware_prototype/revision_v4/audit/cache/ffa2f50aee853e8fc65dbb6ec15d6a6805eebed3d0e9b9f77c78e64ae92e559a.npz",
+    "source_sha256": "4c07af0f4e508db527fb57dfe55e6047b093c128c4a5a8ddd8bc320a1602f1ca",
+    "sha256": "4c07af0f4e508db527fb57dfe55e6047b093c128c4a5a8ddd8bc320a1602f1ca",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/print/tongue_mold_lower_inverted_v5.stl",
+    "source": "hardware_prototype/revision_v5/print/tongue_mold_lower_inverted_v5.stl",
+    "source_sha256": "2c86ea11b45fe136deb8747e40dbb5703faa92275649e5a26d325bcd9189a6e1",
+    "sha256": "2c86ea11b45fe136deb8747e40dbb5703faa92275649e5a26d325bcd9189a6e1",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/print/tongue_mold_upper_inverted_v5.stl",
+    "source": "hardware_prototype/revision_v5/print/tongue_mold_upper_inverted_v5.stl",
+    "source_sha256": "212091138de9041582b4a79ec8369edede279fcb00fece6d27df1f8d1e9c3f78",
+    "sha256": "212091138de9041582b4a79ec8369edede279fcb00fece6d27df1f8d1e9c3f78",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/reference/new_lower_world.stl",
+    "source": "hardware_prototype/revision_v5/reference/new_lower_world.stl",
+    "source_sha256": "b7c12df7ab65d120348f0f75a94165a696b6e175445a24f566ce0f2b8fd8f551",
+    "sha256": "b7c12df7ab65d120348f0f75a94165a696b6e175445a24f566ce0f2b8fd8f551",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/reference/new_upper_world.stl",
+    "source": "hardware_prototype/revision_v5/reference/new_upper_world.stl",
+    "source_sha256": "06c15d9e9cf8876290ae74997dc106cded9fcd5ea60e5341a01cdada9a5eaf41",
+    "sha256": "06c15d9e9cf8876290ae74997dc106cded9fcd5ea60e5341a01cdada9a5eaf41",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/audit/V5_GEOMETRY_AUDIT.json",
+    "source": "hardware_prototype/revision_v5/audit/V5_GEOMETRY_AUDIT.json",
+    "source_sha256": "05490a6ceade9f01d7538e18696922f0b5e88f9d85b89507d45d8f14201c3371",
+    "sha256": "a3c5e72252c0e9fbcebdb13be24ed69ee79f10823496a2eff545afd8afde6f6d",
+    "change": "CRLF to LF only"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/audit/V5_INDEPENDENT_CHECK.json",
+    "source": "hardware_prototype/revision_v5/audit/V5_INDEPENDENT_CHECK.json",
+    "source_sha256": "ae7276df4ef5f74f812f94dc8868a3d457cc0d5b02b0fd420aa4455b1407dc76",
+    "sha256": "a6a14c332986df7a0a16713e1e036bd3957a3503053697b9645d75444756fe11",
+    "change": "CRLF to LF only",
+    "processing": "Independent V5 checker rerun for repository packaging; original report is unchanged."
+  },
+  {
+    "path": "hardware_prototype/revision_v5/audit/cache/21b685e283ed581d94b51066c81510cc403dac19cd4c3759d2f15250a38ccb15.npz",
+    "source": "hardware_prototype/revision_v5/audit/cache/21b685e283ed581d94b51066c81510cc403dac19cd4c3759d2f15250a38ccb15.npz",
+    "source_sha256": "fc46ba12ee51ee902a39f55a03f474db6c70df2bb76403a8e71cd8dba4e7e129",
+    "sha256": "fc46ba12ee51ee902a39f55a03f474db6c70df2bb76403a8e71cd8dba4e7e129",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/audit/cache/f5aa9531f6d8eee61e205e2c3f61f09b37b3f8735591fccc7485396f48cab929.npz",
+    "source": "hardware_prototype/revision_v5/audit/cache/f5aa9531f6d8eee61e205e2c3f61f09b37b3f8735591fccc7485396f48cab929.npz",
+    "source_sha256": "907b5586c587353866795194b361b20a5fb608a624aba347f1030ce5b52eae1d",
+    "sha256": "907b5586c587353866795194b361b20a5fb608a624aba347f1030ce5b52eae1d",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/preview/01_v5_print_parts.png",
+    "source": "hardware_prototype/revision_v5/preview/01_v5_print_parts.png",
+    "source_sha256": "f5f80749c1790e23ae9e4a9c57464e20e19e1aec08fa9a55a6da4f77034d0a34",
+    "sha256": "f5f80749c1790e23ae9e4a9c57464e20e19e1aec08fa9a55a6da4f77034d0a34",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/preview/02_v5_casting_orientation.png",
+    "source": "hardware_prototype/revision_v5/preview/02_v5_casting_orientation.png",
+    "source_sha256": "39fccb9e091d5c0ca18de3b2fcef559597ec3344fe184f519fb1c1f855cc6dc8",
+    "sha256": "39fccb9e091d5c0ca18de3b2fcef559597ec3344fe184f519fb1c1f855cc6dc8",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v5/README_CN.md",
+    "source": "hardware_prototype/revision_v5/README_CN.md",
+    "source_sha256": "c3a5b96621d0556504e4b3fd964ef4c14d399b2f9856cf4d2fae822b0515bf71",
+    "sha256": "c3a5b96621d0556504e4b3fd964ef4c14d399b2f9856cf4d2fae822b0515bf71",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/preview/01_new_parts.png",
+    "source": "hardware_prototype/revision_v4/preview/01_new_parts.png",
+    "source_sha256": "845f2cc65a93efd817b9f948f73fac85f9e620b218011cf54f968c20685b8869",
+    "sha256": "845f2cc65a93efd817b9f948f73fac85f9e620b218011cf54f968c20685b8869",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/preview/02_preassembly.png",
+    "source": "hardware_prototype/revision_v4/preview/02_preassembly.png",
+    "source_sha256": "d145852dae90097c086cc8692bc425b382b1fb3052a16666ec31e41cfe357862",
+    "sha256": "d145852dae90097c086cc8692bc425b382b1fb3052a16666ec31e41cfe357862",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/preview/03_loading.png",
+    "source": "hardware_prototype/revision_v4/preview/03_loading.png",
+    "source_sha256": "eb6819d9017b84828c662602ec1c24adbb6553d08bc4b1f374c3c40527f3f45e",
+    "sha256": "eb6819d9017b84828c662602ec1c24adbb6553d08bc4b1f374c3c40527f3f45e",
+    "change": "unchanged"
+  },
+  {
+    "path": "hardware_prototype/revision_v4/preview/04_hole_faces.png",
+    "source": "hardware_prototype/revision_v4/preview/04_hole_faces.png",
+    "source_sha256": "48c35d7c9733931ad9800818e86e5541cd06bc9792f38e68752afaeee4771862",
+    "sha256": "48c35d7c9733931ad9800818e86e5541cd06bc9792f38e68752afaeee4771862",
+    "change": "unchanged"
+  }
+]

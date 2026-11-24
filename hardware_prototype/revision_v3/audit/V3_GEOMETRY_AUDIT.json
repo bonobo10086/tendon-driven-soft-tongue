@@ -1,0 +1,439 @@
+{
+  "version": "V3",
+  "scope": "Digital geometry, compatibility, routing and file integrity only; no physical strength or casting test",
+  "checks": {
+    "new_stl_closed_and_consistent": {
+      "passed": true,
+      "detail": null
+    },
+    "new_stl_single_body": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_bracket_external_dimensions": {
+      "passed": true,
+      "detail": [
+        56.0,
+        36.0,
+        34.0
+      ]
+    },
+    "default_print_z_zero": {
+      "passed": true,
+      "detail": null
+    },
+    "revision_only_removes_material": {
+      "passed": true,
+      "detail": null
+    },
+    "bracket_exit_clear_LEFT": {
+      "passed": true,
+      "detail": null
+    },
+    "bracket_exit_clear_RIGHT": {
+      "passed": true,
+      "detail": null
+    },
+    "bracket_exit_clear_DOWN": {
+      "passed": true,
+      "detail": null
+    },
+    "bracket_exit_clear_UP": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_M3_hole_1": {
+      "passed": true,
+      "detail": null
+    },
+    "M3_surrounding_bearing_land_1": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_M3_hole_2": {
+      "passed": true,
+      "detail": null
+    },
+    "M3_surrounding_bearing_land_2": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_M3_hole_3": {
+      "passed": true,
+      "detail": null
+    },
+    "M3_surrounding_bearing_land_3": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_M3_hole_4": {
+      "passed": true,
+      "detail": null
+    },
+    "M3_surrounding_bearing_land_4": {
+      "passed": true,
+      "detail": null
+    },
+    "root_mounting_face_unchanged": {
+      "passed": true,
+      "detail": "Front and rear wall faces remain at print y=5 and 9 mm around all four M3 holes"
+    },
+    "unchanged_base_hole_1": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_base_hole_2": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_base_hole_3": {
+      "passed": true,
+      "detail": null
+    },
+    "unchanged_base_hole_4": {
+      "passed": true,
+      "detail": null
+    },
+    "V2_root_insert_V3_bracket_no_collision": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tongue_root_insert_v2.stl_fits_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tongue_root_insert_v2.stl_fits_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tongue_tip_anchor_v2.stl_fits_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tongue_tip_anchor_v2.stl_fits_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tube_seat_centres_LEFT": {
+      "passed": true,
+      "detail": null
+    },
+    "120mm_rod_length_LEFT": {
+      "passed": true,
+      "detail": null
+    },
+    "rod_external_grips_LEFT": {
+      "passed": true,
+      "detail": {
+        "root_mm": 8.0,
+        "tip_mm": 7.987
+      }
+    },
+    "100mm_cannot_span_both_outer_faces_LEFT": {
+      "passed": true,
+      "detail": 104.013
+    },
+    "minimum_curve_radius_above_10mm_LEFT": {
+      "passed": true,
+      "detail": 11.078
+    },
+    "LEFT_tube_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_rod_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_tube_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_rod_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_tube_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_rod_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_tube_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_rod_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "LEFT_1p5mm_envelope_within_cavity": {
+      "passed": true,
+      "detail": null
+    },
+    "tube_seat_centres_RIGHT": {
+      "passed": true,
+      "detail": null
+    },
+    "120mm_rod_length_RIGHT": {
+      "passed": true,
+      "detail": null
+    },
+    "rod_external_grips_RIGHT": {
+      "passed": true,
+      "detail": {
+        "root_mm": 8.0,
+        "tip_mm": 7.84
+      }
+    },
+    "100mm_cannot_span_both_outer_faces_RIGHT": {
+      "passed": true,
+      "detail": 104.16
+    },
+    "minimum_curve_radius_above_10mm_RIGHT": {
+      "passed": true,
+      "detail": 11.054
+    },
+    "RIGHT_tube_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_rod_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_tube_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_rod_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_tube_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_rod_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_tube_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_rod_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "RIGHT_1p5mm_envelope_within_cavity": {
+      "passed": true,
+      "detail": null
+    },
+    "tube_seat_centres_DOWN": {
+      "passed": true,
+      "detail": null
+    },
+    "120mm_rod_length_DOWN": {
+      "passed": true,
+      "detail": null
+    },
+    "rod_external_grips_DOWN": {
+      "passed": true,
+      "detail": {
+        "root_mm": 8.0,
+        "tip_mm": 7.976
+      }
+    },
+    "100mm_cannot_span_both_outer_faces_DOWN": {
+      "passed": true,
+      "detail": 104.024
+    },
+    "minimum_curve_radius_above_10mm_DOWN": {
+      "passed": true,
+      "detail": 10.746
+    },
+    "DOWN_tube_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_rod_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_tube_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_rod_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_tube_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_rod_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_tube_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_rod_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "DOWN_1p5mm_envelope_within_cavity": {
+      "passed": true,
+      "detail": null
+    },
+    "tube_seat_centres_UP": {
+      "passed": true,
+      "detail": null
+    },
+    "120mm_rod_length_UP": {
+      "passed": true,
+      "detail": null
+    },
+    "rod_external_grips_UP": {
+      "passed": true,
+      "detail": {
+        "root_mm": 8.0,
+        "tip_mm": 7.945
+      }
+    },
+    "100mm_cannot_span_both_outer_faces_UP": {
+      "passed": true,
+      "detail": 104.055
+    },
+    "minimum_curve_radius_above_10mm_UP": {
+      "passed": true,
+      "detail": 11.102
+    },
+    "UP_tube_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_rod_clear_tongue_mold_lower_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_tube_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_rod_clear_tongue_mold_upper_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_tube_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_rod_clear_tongue_root_insert_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_tube_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_rod_clear_tongue_tip_anchor_v2.stl": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "UP_1p5mm_envelope_within_cavity": {
+      "passed": true,
+      "detail": null
+    },
+    "tubes_no_collision_LEFT_RIGHT": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tubes_no_collision_LEFT_DOWN": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tubes_no_collision_LEFT_UP": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tubes_no_collision_RIGHT_DOWN": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tubes_no_collision_RIGHT_UP": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tubes_no_collision_DOWN_UP": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "all_V2_STLs_templates_and_BOM_unchanged": {
+      "passed": true,
+      "detail": null
+    },
+    "print_zip_exactly_one_STL": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "parts_to_reprint": [
+    "tongue_root_bracket_v3.stl"
+  ],
+  "preserved_v2_sha256": {
+    "stl\\tongue_mold_lower_v2.stl": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a",
+    "stl\\tongue_mold_upper_v2.stl": "707e47ab2f148b5a3352bf8461b59f4e1ff38d68d0438b085fcf350b4ba278ba",
+    "stl\\tongue_root_insert_v2.stl": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456",
+    "stl\\tongue_tip_anchor_v2.stl": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1",
+    "stl\\tongue_root_bracket_v2.stl": "3580f7497584b19f547a13ce0459ccb08a6acc86d64a114591292fe4b75e45e4",
+    "BOM_CN.md": "b15d097a6f98e0b6a685aa3a67ec338cdb5fce0b2d41b09d1310619f7b1a7736",
+    "tube_path_template_1to1.svg": "8ac9022c7cbb1e4577d329a0116e30a74a823bd5fa4ba188dcae18ed5963cb93",
+    "tube_path_template_top_1to1.svg": "ca5a30e7c4354ca879628884021076842e1d475f39eac1506d10481a2173b4f8"
+  },
+  "paths": {
+    "LEFT": {
+      "tube_centreline_mm": 79.5202,
+      "initial_tube_cut_mm": 80,
+      "minimum_bend_radius_mm": 11.078,
+      "minimum_rod_to_span_mold_mm": 104.013,
+      "rod_length_mm": 120.0,
+      "root_outside_mm": 8.0,
+      "tip_outside_mm": 7.987
+    },
+    "RIGHT": {
+      "tube_centreline_mm": 79.667,
+      "initial_tube_cut_mm": 80,
+      "minimum_bend_radius_mm": 11.054,
+      "minimum_rod_to_span_mold_mm": 104.16,
+      "rod_length_mm": 120.0,
+      "root_outside_mm": 8.0,
+      "tip_outside_mm": 7.84
+    },
+    "DOWN": {
+      "tube_centreline_mm": 79.5307,
+      "initial_tube_cut_mm": 80,
+      "minimum_bend_radius_mm": 10.746,
+      "minimum_rod_to_span_mold_mm": 104.024,
+      "rod_length_mm": 120.0,
+      "root_outside_mm": 8.0,
+      "tip_outside_mm": 7.976
+    },
+    "UP": {
+      "tube_centreline_mm": 79.5626,
+      "initial_tube_cut_mm": 80,
+      "minimum_bend_radius_mm": 11.102,
+      "minimum_rod_to_span_mold_mm": 104.055,
+      "rod_length_mm": 120.0,
+      "root_outside_mm": 8.0,
+      "tip_outside_mm": 7.945
+    }
+  },
+  "new_stl_sha256": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b",
+  "all_digital_checks_passed": true
+}

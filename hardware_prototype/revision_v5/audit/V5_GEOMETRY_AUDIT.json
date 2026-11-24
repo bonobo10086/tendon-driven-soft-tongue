@@ -1,0 +1,391 @@
+{
+  "release": "V5_INVERTED",
+  "units": "mm",
+  "coordinates": {
+    "split_y": 17.2,
+    "y_min": -8.068796920776368,
+    "y_max": 44.4667236328125,
+    "z_min": -9.15516471862793,
+    "z_max": 86.7376937866211
+  },
+  "casting_up_world": [
+    0,
+    -1,
+    0
+  ],
+  "checks": {
+    "V4_baseline_print_sha_matches_original_release": {
+      "passed": true,
+      "detail": null
+    },
+    "V2_lower_matches_reused_reference": {
+      "passed": true,
+      "detail": null
+    },
+    "new_lower_only_adds_material_in_old_port_zones": {
+      "passed": true,
+      "detail": {
+        "added_mm3": 757.3766316421998,
+        "unexpected_removed_mm3": -3.1770742941315716e-15
+      }
+    },
+    "port_fill_does_not_invade_original_tongue_cavity": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_root_insert_v2": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_tip_anchor_v2": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_root_end_dam_v4": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_tip_end_dam_v4": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_core_LEFT": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_core_RIGHT": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_tube_LEFT": {
+      "passed": true,
+      "detail": null
+    },
+    "old_loading_clearance_preserved_tube_RIGHT": {
+      "passed": true,
+      "detail": null
+    },
+    "port_enters_cavity_before_split_pour": {
+      "passed": true,
+      "detail": {
+        "roof_y": -0.06879585749999961,
+        "split_y": 17.2
+      }
+    },
+    "port_axis_not_through_insert_or_dam_pour": {
+      "passed": true,
+      "detail": null
+    },
+    "port_enters_cavity_before_split_vent_opposite": {
+      "passed": true,
+      "detail": {
+        "roof_y": 0.19650167240954453,
+        "split_y": 17.2
+      }
+    },
+    "port_axis_not_through_insert_or_dam_vent_opposite": {
+      "passed": true,
+      "detail": null
+    },
+    "port_enters_cavity_before_split_vent_root": {
+      "passed": true,
+      "detail": {
+        "roof_y": 13.221709960881434,
+        "split_y": 17.2
+      }
+    },
+    "port_axis_not_through_insert_or_dam_vent_root": {
+      "passed": true,
+      "detail": null
+    },
+    "port_enters_cavity_before_split_vent_tip": {
+      "passed": true,
+      "detail": {
+        "roof_y": 15.96605252975948,
+        "split_y": 17.2
+      }
+    },
+    "port_axis_not_through_insert_or_dam_vent_tip": {
+      "passed": true,
+      "detail": null
+    },
+    "new_upper_only_removes_new_port_material": {
+      "passed": true,
+      "detail": null
+    },
+    "pour_center_exactly_over_deepest_belly_point": {
+      "passed": true,
+      "detail": {
+        "point_world_mm": [
+          9.7100033975,
+          -0.06879585749999961,
+          36.690668096500005
+        ],
+        "definition": "absolute minimum world-Y of original cavity"
+      }
+    },
+    "binary_stl_closed_and_consistent_tongue_mold_upper_inverted_v5.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 2907,
+        "triangles": 5850,
+        "edges": 8775,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_mm3": 139606.94783046178,
+        "euler_characteristic": -18,
+        "bounds_mm": [
+          [
+            -34.08223342895508,
+            -86.7376937866211,
+            -1.9073486612342094e-07
+          ],
+          [
+            34.08223342895508,
+            9.15516471862793,
+            29.268796920776367
+          ]
+        ]
+      }
+    },
+    "one_solid_body_tongue_mold_upper_inverted_v5.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "flat_back_on_print_bed_tongue_mold_upper_inverted_v5.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "binary_stl_closed_and_consistent_tongue_mold_lower_inverted_v5.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 2636,
+        "triangles": 5292,
+        "edges": 7938,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_mm3": 154427.25938313032,
+        "euler_characteristic": -10,
+        "bounds_mm": [
+          [
+            -34.08223342895508,
+            -9.15516471862793,
+            -7.629394644936838e-07
+          ],
+          [
+            34.08223342895508,
+            86.7376937866211,
+            27.2667236328125
+          ]
+        ]
+      }
+    },
+    "one_solid_body_tongue_mold_lower_inverted_v5.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "flat_back_on_print_bed_tongue_mold_lower_inverted_v5.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "closed_halves_have_no_new_overlap": {
+      "passed": true,
+      "detail": null
+    },
+    "reused_part_fit_root_insert_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      }
+    },
+    "reused_part_fit_tip_anchor_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      }
+    },
+    "reused_part_fit_root_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      }
+    },
+    "reused_part_fit_tip_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      }
+    },
+    "open_casting_passage_pour": {
+      "passed": true,
+      "detail": null
+    },
+    "open_casting_passage_vent_opposite": {
+      "passed": true,
+      "detail": null
+    },
+    "open_casting_passage_vent_root": {
+      "passed": true,
+      "detail": null
+    },
+    "open_casting_passage_vent_tip": {
+      "passed": true,
+      "detail": null
+    },
+    "old_backside_port_sealed_old_root_pour": {
+      "passed": true,
+      "detail": null
+    },
+    "old_backside_port_sealed_old_tip_vent_left": {
+      "passed": true,
+      "detail": null
+    },
+    "old_backside_port_sealed_old_tip_vent_right": {
+      "passed": true,
+      "detail": null
+    },
+    "all_legacy_STL_BOM_and_builders_unchanged": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "parts": {
+    "tongue_mold_upper_inverted_v5.stl": {
+      "quantity": 1,
+      "dimensions_mm": [
+        68.16446685791016,
+        95.89285850524902,
+        29.268797111511233
+      ],
+      "volume_mm3": 139606.94783046175,
+      "triangles": 5850,
+      "sha256": "212091138de9041582b4a79ec8369edede279fcb00fece6d27df1f8d1e9c3f78",
+      "legacy_role_for_print_pose": "lower"
+    },
+    "tongue_mold_lower_inverted_v5.stl": {
+      "quantity": 1,
+      "dimensions_mm": [
+        68.16446685791016,
+        95.89285850524902,
+        27.266724395751964
+      ],
+      "volume_mm3": 154427.25938313032,
+      "triangles": 5292,
+      "sha256": "2c86ea11b45fe136deb8747e40dbb5703faa92275649e5a26d325bcd9189a6e1",
+      "legacy_role_for_print_pose": "upper"
+    }
+  },
+  "old_ports": [
+    {
+      "name": "old_root_pour",
+      "x": 0.0,
+      "z": 8.0,
+      "diameter_mm": 9.0,
+      "inner_y": 30.0
+    },
+    {
+      "name": "old_tip_vent_left",
+      "x": -4.5,
+      "z": 73.0,
+      "diameter_mm": 2.0,
+      "inner_y": 25.0
+    },
+    {
+      "name": "old_tip_vent_right",
+      "x": 3.0,
+      "z": 73.0,
+      "diameter_mm": 2.0,
+      "inner_y": 25.0
+    }
+  ],
+  "new_ports": [
+    {
+      "name": "pour",
+      "label_cn": "灌注口",
+      "x": 9.7100033975,
+      "z": 36.6906680965,
+      "diameter_mm": 9.0,
+      "cavity_roof_y_mm": -0.06879585749999961,
+      "inner_y": 0.5312041425000004,
+      "outer_y": -8.068796920776368
+    },
+    {
+      "name": "vent_opposite",
+      "label_cn": "另一侧深凹排气孔",
+      "x": -8.2,
+      "z": 38.0,
+      "diameter_mm": 2.0,
+      "cavity_roof_y_mm": 0.19650167240954453,
+      "inner_y": 0.7965016724095445,
+      "outer_y": -8.068796920776368
+    },
+    {
+      "name": "vent_root",
+      "label_cn": "靠舌根排气孔",
+      "x": 0.0,
+      "z": 12.0,
+      "diameter_mm": 2.0,
+      "cavity_roof_y_mm": 13.221709960881434,
+      "inner_y": 13.821709960881433,
+      "outer_y": -8.068796920776368
+    },
+    {
+      "name": "vent_tip",
+      "label_cn": "靠舌尖排气孔",
+      "x": -2.0,
+      "z": 64.0,
+      "diameter_mm": 2.0,
+      "cavity_roof_y_mm": 15.96605252975948,
+      "inner_y": 16.56605252975948,
+      "outer_y": -8.068796920776368
+    }
+  ],
+  "role_mapping": {
+    "tongue_mold_upper_inverted_v5.stl": "old V2 lower, retains male pins",
+    "tongue_mold_lower_inverted_v5.stl": "old V4 upper, retains sockets and open loading slots"
+  },
+  "limits": [
+    "Nominal mesh geometry, not physical fill/seal/cure/strength validation.",
+    "Top gravity pouring can still trap air; vents are not a void-free guarantee.",
+    "Flexible tube movement and the existing incomplete specimen are not validated.",
+    "Only feed/vent passages change; old dimensions, cavity and accessories are retained."
+  ],
+  "protected_inputs_sha256": {
+    "BOM_CN.md": "b15d097a6f98e0b6a685aa3a67ec338cdb5fce0b2d41b09d1310619f7b1a7736",
+    "stl\\mg90s_single_test_mount_v2.stl": "d4176ec0ac206bacdba622f5466231d03dd2520a9ca2284b187bcba69c96b350",
+    "stl\\tongue_mold_lower_v2.stl": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a",
+    "stl\\tongue_mold_upper_v2.stl": "707e47ab2f148b5a3352bf8461b59f4e1ff38d68d0438b085fcf350b4ba278ba",
+    "stl\\tongue_root_bracket_v2.stl": "3580f7497584b19f547a13ce0459ccb08a6acc86d64a114591292fe4b75e45e4",
+    "stl\\tongue_root_insert_v2.stl": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456",
+    "stl\\tongue_tip_anchor_v2.stl": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1",
+    "revision_v3\\print\\tongue_root_bracket_v3.stl": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b",
+    "revision_v4\\print\\tongue_mold_upper_v4.stl": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3",
+    "revision_v4\\print\\tongue_root_end_dam_v4.stl": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d",
+    "revision_v4\\print\\tongue_tip_end_dam_v4.stl": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0",
+    "revision_v4\\reference\\core_DOWN.stl": "fffd88f47b253ba1b447114a24467ae5ad0d236853ae3541b2a9c1375e9884cd",
+    "revision_v4\\reference\\core_LEFT.stl": "b3bfdd2cf023b11d0647b80adf23a9b665d326ac6544ddb2a304066d3e1beea1",
+    "revision_v4\\reference\\core_RIGHT.stl": "012e2e54e660cd39549ef788bb539fd98db7c76cb78b4e2a293ae4e5af0c0df9",
+    "revision_v4\\reference\\core_UP.stl": "f66ebe648f53597f39ee73041ddbfad6d2ce41f11ddb6d250a6860466380ace7",
+    "revision_v4\\reference\\lower_world.stl": "dc9534a1827521f15c9e285093d59a3619658e2a11450c0057d5f14a4b3180e3",
+    "revision_v4\\reference\\root_end_dam_v4.stl": "37dd565ab99727b1420356131641a4e4bcc1b8e1e99c080c721ef2a9d0981451",
+    "revision_v4\\reference\\root_insert_v2.stl": "fb79d5bd7b819ab14b9738caef59edf69067ea6e71f23c458f57fcf4fff30e47",
+    "revision_v4\\reference\\tip_anchor_v2.stl": "8fd3f96e78e50ae3436d9441119a0d1321e0af6be6cd86a21846d5edf9f9ac74",
+    "revision_v4\\reference\\tip_end_dam_v4.stl": "9b7ba3015e21b7cf846d05e65d0956764977cd9b3dbcddcfc13b3b41c73b4d47",
+    "revision_v4\\reference\\tube_DOWN.stl": "4a75f38ed4b0a34795182bf4da20acefc39a0954d0aa35d55c937dceb3298bcf",
+    "revision_v4\\reference\\tube_LEFT.stl": "6e5c94b29f03459792fdcf89ddfc5ef5d3abd3276696b54235cf249a3f5c59a0",
+    "revision_v4\\reference\\tube_RIGHT.stl": "babc1a06f75c89fb4d6df85d8a2813b854d722de1a4ae9bcbe3b780853212b03",
+    "revision_v4\\reference\\tube_UP.stl": "8730cddbc30c9cba23bec366018ea93ea8a370cd80b42593a4f1911c73f60434",
+    "revision_v4\\reference\\upper_world.stl": "c440606ea27f7c000ff16de51839589372f4c4668b8c6ab36be29f1e43885fb8",
+    "cad\\build_printables.py": "473e70329c0dcdc5d07093fe3e9973b358da1bed7e5501bba322eb27198fe086",
+    "cad\\build_revision_v4.py": "bfb82cea994db4098483cd80c97365971226a01d14a0d2fa4a14e44f563c83dc"
+  },
+  "export_numerical_simplification_tolerance_mm": 0.001,
+  "elapsed_seconds": 1.1686961650848389,
+  "summary": {
+    "passed": true,
+    "number_of_checks": 41,
+    "new_print_parts": 2
+  }
+}

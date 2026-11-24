@@ -1,0 +1,389 @@
+{
+  "method": "Independent released-STL topology, transforms, rays, Boolean regression and fit",
+  "limits": [
+    "Nominal rigid geometry only; print shrinkage and silicone behavior are not measured.",
+    "No flow simulation, physical fill, sealing, cure or bubble-free performance validation.",
+    "Sampled assembly poses do not replace a full physical dry-fit cycle.",
+    "The four long curved reference cores are historical geometry, not an instruction to reuse stuck cores."
+  ],
+  "checks": {
+    "exactly_two_print_STLs": {
+      "passed": true,
+      "detail": [
+        "tongue_mold_lower_inverted_v5.stl",
+        "tongue_mold_upper_inverted_v5.stl"
+      ]
+    },
+    "topology_tongue_mold_lower_inverted_v5.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 2636,
+        "triangles": 5292,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "connected_components": 1,
+        "signed_volume_mm3": 154427.25938313035,
+        "bounds_mm": [
+          [
+            -34.08223342895508,
+            -9.15516471862793,
+            -7.629394644936838e-07
+          ],
+          [
+            34.08223342895508,
+            86.7376937866211,
+            27.2667236328125
+          ]
+        ],
+        "sha256": "2c86ea11b45fe136deb8747e40dbb5703faa92275649e5a26d325bcd9189a6e1"
+      }
+    },
+    "bed_Z0_tongue_mold_lower_inverted_v5.stl": {
+      "passed": true,
+      "detail": [
+        [
+          -34.08223342895508,
+          -9.15516471862793,
+          -7.629394644936838e-07
+        ],
+        [
+          34.08223342895508,
+          86.7376937866211,
+          27.2667236328125
+        ]
+      ]
+    },
+    "topology_tongue_mold_upper_inverted_v5.stl": {
+      "passed": true,
+      "detail": {
+        "vertices": 2907,
+        "triangles": 5850,
+        "unpaired_or_nonmanifold_edges": 0,
+        "inconsistent_directed_edges": 0,
+        "degenerate_triangles": 0,
+        "connected_components": 1,
+        "signed_volume_mm3": 139606.94783046178,
+        "bounds_mm": [
+          [
+            -34.08223342895508,
+            -86.7376937866211,
+            -1.9073486612342094e-07
+          ],
+          [
+            34.08223342895508,
+            9.15516471862793,
+            29.268796920776367
+          ]
+        ],
+        "sha256": "212091138de9041582b4a79ec8369edede279fcb00fece6d27df1f8d1e9c3f78"
+      }
+    },
+    "bed_Z0_tongue_mold_upper_inverted_v5.stl": {
+      "passed": true,
+      "detail": [
+        [
+          -34.08223342895508,
+          -86.7376937866211,
+          -1.9073486612342094e-07
+        ],
+        [
+          34.08223342895508,
+          9.15516471862793,
+          29.268796920776367
+        ]
+      ]
+    },
+    "print_to_world_new_lower": {
+      "passed": true,
+      "detail": {
+        "symmetric_difference_mm3": 0.0
+      }
+    },
+    "print_to_world_new_upper": {
+      "passed": true,
+      "detail": {
+        "symmetric_difference_mm3": 0.0
+      }
+    },
+    "only_declared_ports_changed_old_upper_now_lower": {
+      "passed": true,
+      "detail": {
+        "outside_port_masks_mm3": 0.0014596044033571925,
+        "added_mm3": 757.3770796679983,
+        "removed_mm3": 0.0010238661969044745
+      }
+    },
+    "only_declared_ports_changed_old_lower_now_upper": {
+      "passed": true,
+      "detail": {
+        "outside_port_masks_mm3": 0.0014912003233367012,
+        "added_mm3": 5.657483017855897e-05,
+        "removed_mm3": 698.0973728733469
+      }
+    },
+    "old_hole_fill_not_inside_original_tongue": {
+      "passed": true,
+      "detail": {
+        "added_plastic_inside_original_cavity_mm3": 0.00042047177649861585
+      }
+    },
+    "six_bolts_and_bearing_rims_preserved": {
+      "passed": true,
+      "detail": [
+        {
+          "x": -29.082233428955078,
+          "z": -4.15516471862793,
+          "open": true,
+          "rim_preserved": true
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 38.79126453399658,
+          "open": true,
+          "rim_preserved": true
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 81.7376937866211,
+          "open": true,
+          "rim_preserved": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": -4.15516471862793,
+          "open": true,
+          "rim_preserved": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 38.79126453399658,
+          "open": true,
+          "rim_preserved": true
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 81.7376937866211,
+          "open": true,
+          "rim_preserved": true
+        }
+      ]
+    },
+    "four_registration_features_preserved": {
+      "passed": true,
+      "detail": [
+        {
+          "x": -24.0,
+          "z": -4.15516471862793,
+          "preserved": true
+        },
+        {
+          "x": -24.0,
+          "z": 81.7376937866211,
+          "preserved": true
+        },
+        {
+          "x": 24.0,
+          "z": -4.15516471862793,
+          "preserved": true
+        },
+        {
+          "x": 24.0,
+          "z": 81.7376937866211,
+          "preserved": true
+        }
+      ]
+    },
+    "legacy_three_outer_openings_closed": {
+      "passed": true,
+      "detail": [
+        {
+          "name": "old_root_pour",
+          "first_hit_from_outer_plus_1mm": [
+            0.9999992370605354,
+            0.9999992370605354,
+            0.9999992370605354
+          ],
+          "closed": true
+        },
+        {
+          "name": "old_tip_vent_left",
+          "first_hit_from_outer_plus_1mm": [
+            0.9999992370605356,
+            0.9999992370605356,
+            0.9999992370605356
+          ],
+          "closed": true
+        },
+        {
+          "name": "old_tip_vent_right",
+          "first_hit_from_outer_plus_1mm": [
+            0.9999992370605356,
+            0.9999992370605356,
+            0.9999992370605356
+          ],
+          "closed": true
+        }
+      ]
+    },
+    "new_pour_and_vents_open_to_cavity": {
+      "passed": true,
+      "detail": [
+        {
+          "name": "pour",
+          "expected_inner_y": 0.5312041425000004,
+          "first_material_y_mm": [
+            18.961443294579365,
+            18.924999800237316,
+            18.898817201083673,
+            18.650173590360584,
+            19.396180973739206
+          ],
+          "connected_to_cavity": true
+        },
+        {
+          "name": "vent_opposite",
+          "expected_inner_y": 0.7965016724095445,
+          "first_material_y_mm": [
+            18.15606975385748,
+            18.139528545097047,
+            18.17291867339789,
+            18.070175789281453,
+            18.241982135594416
+          ],
+          "connected_to_cavity": true
+        },
+        {
+          "name": "vent_root",
+          "expected_inner_y": 13.821709960881433,
+          "first_material_y_mm": [
+            33.728013313907795,
+            33.62266414430478,
+            33.82269679723386,
+            33.607709781031076,
+            33.83852456067844
+          ],
+          "connected_to_cavity": true
+        },
+        {
+          "name": "vent_tip",
+          "expected_inner_y": 16.56605252975948,
+          "first_material_y_mm": [
+            27.533258017271347,
+            27.5572965565939,
+            27.51438981208074,
+            27.684454193991638,
+            27.387587473886295
+          ],
+          "connected_to_cavity": true
+        }
+      ]
+    },
+    "four_reused_rigid_parts_sampled_fit": {
+      "passed": true,
+      "detail": {
+        "world_negative_Y_samples_mm": [
+          -45.0,
+          -30.0,
+          -15.0,
+          -8.0,
+          -4.0,
+          -2.0,
+          -1.0,
+          -0.5,
+          0.0
+        ],
+        "parts": [
+          {
+            "part": "root_insert",
+            "new_lower_loading_max_mm3": 0.0,
+            "new_upper_closing_max_mm3": 0.0
+          },
+          {
+            "part": "tip_anchor",
+            "new_lower_loading_max_mm3": 0.0,
+            "new_upper_closing_max_mm3": 0.0
+          },
+          {
+            "part": "root_end",
+            "new_lower_loading_max_mm3": 0.0,
+            "new_upper_closing_max_mm3": 0.0
+          },
+          {
+            "part": "tip_end",
+            "new_lower_loading_max_mm3": 0.0,
+            "new_upper_closing_max_mm3": 0.0
+          }
+        ]
+      }
+    },
+    "sampled_halves_close_without_added_interference": {
+      "passed": true,
+      "detail": {
+        "samples_mm": [
+          -45.0,
+          -30.0,
+          -15.0,
+          -8.0,
+          -4.0,
+          -2.0,
+          -1.0,
+          -0.5,
+          0.0
+        ],
+        "maximum_intersection_mm3": 2.760552203495692e-14
+      }
+    }
+  },
+  "meshes": {
+    "tongue_mold_lower_inverted_v5.stl": {
+      "vertices": 2636,
+      "triangles": 5292,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "signed_volume_mm3": 154427.25938313035,
+      "bounds_mm": [
+        [
+          -34.08223342895508,
+          -9.15516471862793,
+          -7.629394644936838e-07
+        ],
+        [
+          34.08223342895508,
+          86.7376937866211,
+          27.2667236328125
+        ]
+      ],
+      "sha256": "2c86ea11b45fe136deb8747e40dbb5703faa92275649e5a26d325bcd9189a6e1"
+    },
+    "tongue_mold_upper_inverted_v5.stl": {
+      "vertices": 2907,
+      "triangles": 5850,
+      "unpaired_or_nonmanifold_edges": 0,
+      "inconsistent_directed_edges": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "signed_volume_mm3": 139606.94783046178,
+      "bounds_mm": [
+        [
+          -34.08223342895508,
+          -86.7376937866211,
+          -1.9073486612342094e-07
+        ],
+        [
+          34.08223342895508,
+          9.15516471862793,
+          29.268796920776367
+        ]
+      ],
+      "sha256": "212091138de9041582b4a79ec8369edede279fcb00fece6d27df1f8d1e9c3f78"
+    }
+  },
+  "primary_report_sha256": "a3c5e72252c0e9fbcebdb13be24ed69ee79f10823496a2eff545afd8afde6f6d",
+  "summary": {
+    "passed": true,
+    "number_of_checks": 16
+  }
+}

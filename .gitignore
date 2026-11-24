@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+*.qglviewer.view
+*.scn.view
+*.zip
+*.exe
+*.dll
+*.pyd
+*.elf
+*.hex
+*.bin
+build/
+dist/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+hardware_prototype/tools/
+# Regenerated audit reports can be reviewed before committing; shipped caches
+# are intentionally retained as reproducible baseline geometry inputs.

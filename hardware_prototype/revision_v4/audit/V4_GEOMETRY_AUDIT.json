@@ -1,0 +1,916 @@
+{
+  "version": "V4",
+  "units": "mm",
+  "checks": {
+    "cutting_detached_ribs_are_only_local_cavity_slivers": {
+      "passed": true,
+      "detail": [
+        {
+          "volume_mm3": 15.598489812511476,
+          "bounds": [
+            -0.30000001192092896,
+            17.200000762939453,
+            65.31671243284866,
+            0.506156114653971,
+            22.52008884173723,
+            75.0
+          ]
+        },
+        {
+          "volume_mm3": 13.380609140452727,
+          "bounds": [
+            -3.355399674374723,
+            17.200000762939453,
+            65.95819794168719,
+            -2.6407073557563066,
+            22.24615404501047,
+            75.0
+          ]
+        },
+        {
+          "volume_mm3": 0.23948750601943072,
+          "bounds": [
+            1.2000000476837158,
+            17.200000762939453,
+            6.699999809265137,
+            4.800000190734863,
+            17.63344955444336,
+            7.195498943328857
+          ]
+        },
+        {
+          "volume_mm3": 0.006145367308428409,
+          "bounds": [
+            -2.166422958540003,
+            17.200000762939453,
+            6.699999809265137,
+            -1.2000000476837158,
+            17.375707567035782,
+            6.915714878039226
+          ]
+        },
+        {
+          "volume_mm3": 4.699705240549662e-05,
+          "bounds": [
+            -0.800000011920929,
+            17.200000762939453,
+            77.79999542236328,
+            0.800000011920929,
+            21.049999237060547,
+            77.80000305175781
+          ]
+        },
+        {
+          "volume_mm3": 4.699704887853861e-05,
+          "bounds": [
+            -3.799999952316284,
+            17.200000762939453,
+            77.79999542236328,
+            -2.200000047683716,
+            21.049999237060547,
+            77.80000305175781
+          ]
+        }
+      ]
+    },
+    "upper_valid_connected": {
+      "passed": true,
+      "detail": null
+    },
+    "lower_valid_connected": {
+      "passed": true,
+      "detail": null
+    },
+    "loading_upper_root_insert_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_root_insert_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tip_anchor_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tip_anchor_v2": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_root_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_root_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tip_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tip_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tube_LEFT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tube_LEFT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_core_LEFT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_core_LEFT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tube_RIGHT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tube_RIGHT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_core_RIGHT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_core_RIGHT": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tube_DOWN": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tube_DOWN": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_core_DOWN": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_core_DOWN": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_tube_UP": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_tube_UP": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "loading_upper_core_UP": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "closing_lower_core_UP": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "clearance_mm": 0.15,
+        "stroke_mm": 45.0
+      }
+    },
+    "final_group_no_unintended_collisions": {
+      "passed": true,
+      "detail": null
+    },
+    "prethread_root_insert_v2": {
+      "passed": true,
+      "detail": {
+        "core_mm3": 0.0,
+        "tube_mm3": 0.0,
+        "travel_mm": 24
+      }
+    },
+    "prethread_tip_anchor_v2": {
+      "passed": true,
+      "detail": {
+        "core_mm3": 0.0,
+        "tube_mm3": 0.0,
+        "travel_mm": 20
+      }
+    },
+    "prethread_root_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "core_mm3": 0.0,
+        "tube_mm3": 0.0,
+        "travel_mm": 12
+      }
+    },
+    "prethread_tip_end_dam_v4": {
+      "passed": true,
+      "detail": {
+        "core_mm3": 0.0,
+        "tube_mm3": 0.0,
+        "travel_mm": 17
+      }
+    },
+    "core_grip_minimum_5mm": {
+      "passed": true,
+      "detail": {
+        "LEFT": {
+          "root_z": -17.15516471862793,
+          "tip_z": 94.72461529779184,
+          "root_grip_mm": 6.0,
+          "tip_grip_mm": 5.986921511170749,
+          "tube_centreline_mm": 79.52021998358023
+        },
+        "RIGHT": {
+          "root_z": -17.15516471862793,
+          "tip_z": 94.57783430795466,
+          "root_grip_mm": 6.0,
+          "tip_grip_mm": 5.840140521333566,
+          "tube_centreline_mm": 79.66700097341742
+        },
+        "DOWN": {
+          "root_z": -17.15516471862793,
+          "tip_z": 94.71418156830592,
+          "root_grip_mm": 6.0,
+          "tip_grip_mm": 5.976487781684824,
+          "tube_centreline_mm": 79.53065371306616
+        },
+        "UP": {
+          "root_z": -17.15516471862793,
+          "tip_z": 94.68227987056959,
+          "root_grip_mm": 6.0,
+          "tip_grip_mm": 5.944586083948494,
+          "tube_centreline_mm": 79.56255541080249
+        }
+      }
+    },
+    "six_M3_bores_and_2mm_radial_rims_preserved": {
+      "passed": true,
+      "detail": [
+        {
+          "x": -29.082233428955078,
+          "z": -4.15516471862793,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 38.79126453399658,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        },
+        {
+          "x": -29.082233428955078,
+          "z": 81.7376937866211,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        },
+        {
+          "x": 29.082233428955078,
+          "z": -4.15516471862793,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 38.79126453399658,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        },
+        {
+          "x": 29.082233428955078,
+          "z": 81.7376937866211,
+          "bore_intersection_mm3": 0.0,
+          "removed_from_radius_3_75_guard_mm3": 0.0
+        }
+      ]
+    },
+    "registration_(-24, -4.15516471862793)": {
+      "passed": true,
+      "detail": null
+    },
+    "registration_(-24, 81.7376937866211)": {
+      "passed": true,
+      "detail": null
+    },
+    "registration_(24, -4.15516471862793)": {
+      "passed": true,
+      "detail": null
+    },
+    "registration_(24, 81.7376937866211)": {
+      "passed": true,
+      "detail": null
+    },
+    "mold_halves_continuous_closure": {
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.003711100952338452,
+        "contact_tolerance_mm3": 0.02
+      }
+    },
+    "open_pour_side_route": {
+      "passed": true,
+      "detail": {
+        "x": 2.5,
+        "z": 8,
+        "probe_radius_mm": 1,
+        "from_y": 26,
+        "intersection_mm3": 0.0
+      }
+    },
+    "open_vent_left": {
+      "passed": true,
+      "detail": {
+        "x": -4.5,
+        "z": 73,
+        "probe_radius_mm": 0.8,
+        "from_y": 27.5,
+        "intersection_mm3": 0.0
+      }
+    },
+    "open_vent_right": {
+      "passed": true,
+      "detail": {
+        "x": 3,
+        "z": 73,
+        "probe_radius_mm": 0.8,
+        "from_y": 27.5,
+        "intersection_mm3": 0.0
+      }
+    },
+    "stl_roundtrip_tongue_mold_upper_v4.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "print_bed_tongue_mold_upper_v4.stl": {
+      "passed": true,
+      "detail": [
+        -34.08223342895508,
+        -9.15516471862793,
+        -7.629394644936838e-07,
+        34.08223342895508,
+        86.7376937866211,
+        27.2667236328125
+      ]
+    },
+    "stl_roundtrip_tongue_root_end_dam_v4.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "print_bed_tongue_root_end_dam_v4.stl": {
+      "passed": true,
+      "detail": [
+        -11.0,
+        17.399999618530273,
+        0.0,
+        11.0,
+        33.0,
+        5.755164623260498
+      ]
+    },
+    "stl_roundtrip_tongue_tip_end_dam_v4.stl": {
+      "passed": true,
+      "detail": null
+    },
+    "print_bed_tongue_tip_end_dam_v4.stl": {
+      "passed": true,
+      "detail": [
+        -9.0,
+        -31.5,
+        0.0,
+        6.0,
+        -17.399999618530273,
+        10.737693786621094
+      ]
+    },
+    "protected_BOM_old_STLs_V3_templates_unchanged": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "parts": {
+    "tongue_mold_upper_v4.stl": {
+      "quantity": 1,
+      "dimensions_mm": [
+        68.16446685791016,
+        95.89285850524902,
+        27.266724395751964
+      ],
+      "volume_mm3": 153669.88333945072,
+      "triangles": 5912,
+      "sha256": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3"
+    },
+    "tongue_root_end_dam_v4.stl": {
+      "quantity": 1,
+      "dimensions_mm": [
+        22.0,
+        15.600000381469727,
+        5.755164623260498
+      ],
+      "volume_mm3": 1570.3279168289455,
+      "triangles": 812,
+      "sha256": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d"
+    },
+    "tongue_tip_end_dam_v4.stl": {
+      "quantity": 1,
+      "dimensions_mm": [
+        15.0,
+        14.100000381469727,
+        10.737693786621094
+      ],
+      "volume_mm3": 1520.0581790708009,
+      "triangles": 812,
+      "sha256": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0"
+    }
+  },
+  "limits": [
+    "Nominal rigid geometry only; FDM tolerances not measured.",
+    "Steel extraction, seal, cure, strength and fatigue NOT physically tested.",
+    "Opening loading channels locally changes the original cast contour."
+  ],
+  "coordinates": {
+    "split_y": 17.2,
+    "y_min": -8.068796920776368,
+    "y_max": 44.4667236328125,
+    "z_min": -9.15516471862793,
+    "z_max": 86.7376937866211
+  },
+  "rod_ends": {
+    "LEFT": {
+      "root_z": -17.15516471862793,
+      "tip_z": 94.72461529779184,
+      "root_grip_mm": 6.0,
+      "tip_grip_mm": 5.986921511170749,
+      "tube_centreline_mm": 79.52021998358023
+    },
+    "RIGHT": {
+      "root_z": -17.15516471862793,
+      "tip_z": 94.57783430795466,
+      "root_grip_mm": 6.0,
+      "tip_grip_mm": 5.840140521333566,
+      "tube_centreline_mm": 79.66700097341742
+    },
+    "DOWN": {
+      "root_z": -17.15516471862793,
+      "tip_z": 94.71418156830592,
+      "root_grip_mm": 6.0,
+      "tip_grip_mm": 5.976487781684824,
+      "tube_centreline_mm": 79.53065371306616
+    },
+    "UP": {
+      "root_z": -17.15516471862793,
+      "tip_z": 94.68227987056959,
+      "root_grip_mm": 6.0,
+      "tip_grip_mm": 5.944586083948494,
+      "tube_centreline_mm": 79.56255541080249
+    }
+  },
+  "discarded_cut_slivers_mm3": 29.224825820393345,
+  "upper_surface_simplification_tolerance_mm": 0.001,
+  "print_float32_reconstruction_simplification_mm": 0.001,
+  "old_lower_loading_intersections_mm3": {
+    "root_insert_v2": -7.549516567451064e-15,
+    "tip_anchor_v2": 0.0,
+    "root_end_dam_v4": 0.0,
+    "tip_end_dam_v4": 0.0,
+    "tube_LEFT": 0.0,
+    "core_LEFT": 0.0,
+    "tube_RIGHT": 0.0,
+    "core_RIGHT": 0.0,
+    "tube_DOWN": 0.0,
+    "core_DOWN": 0.0,
+    "tube_UP": 0.0,
+    "core_UP": 0.0
+  },
+  "reuse_old_lower": true,
+  "removed_material_mm3": {
+    "upper": 2813.1978482603736,
+    "lower": 0.0
+  },
+  "net_added_unoccupied_space_mm3": 807.6592308124588,
+  "added_space_note": "Subtracts new dams occupying the cut volume; not a total silicone dose or leak-test result.",
+  "pairwise_intersections": [
+    {
+      "a": "root_insert_v2",
+      "b": "tip_anchor_v2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "root_end_dam_v4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "tip_end_dam_v4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "tube_LEFT",
+      "intersection_mm3": -1.474514954580286e-17
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "core_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "tube_RIGHT",
+      "intersection_mm3": -1.3010426069826053e-17
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "tube_DOWN",
+      "intersection_mm3": -8.673616552703423e-18
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "tube_UP",
+      "intersection_mm3": -8.673616552703423e-18
+    },
+    {
+      "a": "root_insert_v2",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "root_end_dam_v4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "tip_end_dam_v4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "tube_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "core_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "tube_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "tube_DOWN",
+      "intersection_mm3": -4.1633575181680184e-17
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_anchor_v2",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "tip_end_dam_v4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "tube_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "core_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "tube_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "root_end_dam_v4",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "tube_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "core_LEFT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "tube_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tip_end_dam_v4",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "tube_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_LEFT",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "tube_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "core_RIGHT",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_LEFT",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_RIGHT",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_RIGHT",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_RIGHT",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_RIGHT",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_RIGHT",
+      "b": "tube_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_RIGHT",
+      "b": "core_DOWN",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_RIGHT",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_RIGHT",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_DOWN",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "tube_DOWN",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_DOWN",
+      "b": "tube_UP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "core_DOWN",
+      "b": "core_UP",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "builder_reference_sha256": "473e70329c0dcdc5d07093fe3e9973b358da1bed7e5501bba322eb27198fe086",
+  "protected_inputs_sha256": {
+    "BOM_CN.md": "b15d097a6f98e0b6a685aa3a67ec338cdb5fce0b2d41b09d1310619f7b1a7736",
+    "stl\\mg90s_single_test_mount_v2.stl": "d4176ec0ac206bacdba622f5466231d03dd2520a9ca2284b187bcba69c96b350",
+    "stl\\tongue_mold_lower_v2.stl": "550aa702e84a765e1233d43b72096049dc30e7c35a483847cda16eebf12fd44a",
+    "stl\\tongue_mold_upper_v2.stl": "707e47ab2f148b5a3352bf8461b59f4e1ff38d68d0438b085fcf350b4ba278ba",
+    "stl\\tongue_root_bracket_v2.stl": "3580f7497584b19f547a13ce0459ccb08a6acc86d64a114591292fe4b75e45e4",
+    "stl\\tongue_root_insert_v2.stl": "1ba125b0239918541108ec0a156dc10a071f1ea14675c13de464c7368676a456",
+    "stl\\tongue_tip_anchor_v2.stl": "ce4f7bc854d7fd4341a79033de0e264c85c352a2b2a8d87eaa84c3f26133f5d1",
+    "revision_v3\\templates\\tube_path_side_v3_A4_1to1.svg": "95a58d53058f3b0803682bd3edd1baacc8b41fd7d1dc988551dae1a8dbc53ae1",
+    "revision_v3\\templates\\tube_path_top_v3_A4_1to1.svg": "eeb937bf3675bab3c43e435f4c913dbccc1b6cf16ba5a9db89fd2c963393c441",
+    "revision_v3\\print\\tongue_root_bracket_v3.stl": "64d80f472f06c2cc5dda18bc834689ded90a5f0f01456bb5f0935e23755f833b"
+  },
+  "elapsed_seconds": 2.0985605716705322
+}

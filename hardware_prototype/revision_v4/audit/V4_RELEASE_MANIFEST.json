@@ -1,0 +1,28 @@
+{
+  "release": "V4",
+  "units": "mm",
+  "print_quantities": {
+    "tongue_mold_upper_v4.stl": 1,
+    "tongue_root_end_dam_v4.stl": 1,
+    "tongue_tip_end_dam_v4.stl": 1
+  },
+  "physical_gates": "Old-part complete extraction before order; new-part full dry cycle before casting.",
+  "main_checks": 49,
+  "independent_groups": 19,
+  "files": {
+    "print\\tongue_mold_upper_v4.stl": "9d6990cca945fd4c03a7e75928f771d2156874c5a61571885af2710f9b7eb5e3",
+    "print\\tongue_root_end_dam_v4.stl": "7774273924049b31733ae69800789944c6e10f8f076fdf76df6222dd28544e2d",
+    "print\\tongue_tip_end_dam_v4.stl": "94d77d320f1ff71250a85741ea327df2797d4de01f66196c238c4890c5aeb7b0",
+    "ASSEMBLY_AND_GATES_CN.md": "b6b39c676deb83ec5b7172e4a1808a2db0eb28c315d3ce905b003c07360b4619",
+    "PLAN_V4_CN.md": "e27b12a7372abc76f9ebdfb37335e1b6472f25898e17cd2e3a979b48d5394a84",
+    "PRINT_ORDER_CN.md": "cbeb369f53eac8d59eeee82878cfa5502cdaec5c57a4da11c4148a8c660b520f",
+    "README_CN.md": "40e6841adec0f98ca92c5244db2f11ef0ef8a7359d7a6915e0eb10bc0d2fa158",
+    "V4_VALIDATION_CN.md": "cb5fecfc295b2522907afcd3d17f05ad98883e0f494401f0963f12e852468868",
+    "preview\\01_new_parts.png": "845f2cc65a93efd817b9f948f73fac85f9e620b218011cf54f968c20685b8869",
+    "preview\\02_preassembly.png": "d145852dae90097c086cc8692bc425b382b1fb3052a16666ec31e41cfe357862",
+    "preview\\03_loading.png": "eb6819d9017b84828c662602ec1c24adbb6553d08bc4b1f374c3c40527f3f45e",
+    "preview\\04_hole_faces.png": "48c35d7c9733931ad9800818e86e5541cd06bc9792f38e68752afaeee4771862",
+    "audit\\V4_GEOMETRY_AUDIT.json": "a79d4efb877b4f56c9ca2d2f3e5aa222129babcafdbb55f408304beee3fbf1c8",
+    "audit\\V4_INDEPENDENT_CHECK.json": "93339338868cdf042bb12a05818affa1cda1db3d6ac1b3a013596575ccd32e24"
+  }
+}
