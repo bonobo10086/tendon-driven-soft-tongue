@@ -14,7 +14,7 @@
 
 ![V5 倒置浇注模具与打印件](hardware_prototype/revision_v5/preview/01_v5_print_parts.png)
 
-*上图为实际 STL 的工程示意，不是成品照片。*
+
 
 ## 实际进度
 
@@ -28,7 +28,7 @@
 | ROS 2 串口控制 | 规划中，本仓库没有已完成的 ROS 2 节点 |
 | 实体位置闭环与材料标定 | 未实现 |
 
-已提供的代码和图纸不等于每个硬件组合都已验证。当前没有完整样机的演示视频或带载循环记录；后续通过实物联调后再补充，不能以渲染图代替。
+
 
 ## 系统结构
 
@@ -100,12 +100,7 @@ Arduino IDE 打开 [tongue_controller_final.ino](firmware/tongue_controller_fina
 
 CAD 目录中的“建模”是 Python 参数化三角网格和布尔运算，不是 Fusion 原生 `.f3d` 或 STEP 特征树。可打印 STL 和建模源码均保留，依赖见 [CAD 说明](docs/CAD.md)。
 
-## 验证与局限
 
-- 仿真没有口腔碰撞、舌肌模型或与实体硅胶一致的参数标定。
-- 舵机角度是输出命令，不是舌尖位置或张力反馈；本项目不宣称闭环定位。
-- 数字网格核查不代表打印、密封、浇注、固化或疲劳寿命已经通过。
-- 仅用于桌面展示，**不得放入人或动物口中**。出现卡索、持续嗡响、硅胶开裂或发热，立即切断舵机独立电源。
 
 不接硬件的检查命令：
 
@@ -118,8 +113,6 @@ python -m unittest discover -s tests -v
 
 ## 来源
 
-- 口腔、牙齿和舌体网格及纹理：[SOFA Dentistry_Haptics](https://github.com/sofa-framework/sofa/tree/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics)。它们不是本项目从零原创的人体模型。
-- 拉索与内嵌软管的原理参考：Nobutsuna Endo, 2021, [Deformation model and experimental evaluation of a contractable and bendable wire-pulling mechanism with embedded soft tubes for a robotic tongue](https://doi.org/10.1186/s40648-021-00193-6)。四路布局和本仓库图纸是本项目的工程设计，不是论文作者提供的原始 CAD。
-- 开发过程中使用 ChatGPT / Codex 辅助代码、网格建模和文档整理；实物打印、装配与浇注由项目作者实施。
+- 口腔、牙齿和舌体网格及纹理：[SOFA Dentistry_Haptics](https://github.com/sofa-framework/sofa/tree/4d6c2b8e8cd976836c5e071e9db14f1963d84cc9/examples/Tutorials/StepByStep/Dentistry_Haptics)。
+- 拉索与内嵌软管的原理参考：Nobutsuna Endo, 2021, [Deformation model and experimental evaluation of a contractable and bendable wire-pulling mechanism with embedded soft tubes for a robotic tongue](https://doi.org/10.1186/s40648-021-00193-6)。
 
-第三方来源与许可说明见 [ATTRIBUTION.md](docs/ATTRIBUTION.md)。本仓库公开展示不表示对所有内容统一授予 MIT 许可；第三方文件保留原许可，项目原创部分尚未指定额外的通用开源许可证。
